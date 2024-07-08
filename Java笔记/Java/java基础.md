@@ -2,7 +2,7 @@
 
 ------
 
-### 		Java运行机制![image-20211225144704319](\typora-user-images\image-20211225144704319.png)
+### 		Java运行机制![image-20211225144704319](./typora-user-images/image-20211225144704319.png)
 
 ​		java api 文档：[java api 文档](matools.com)
 
@@ -26,15 +26,15 @@
 
 ### 	学习方法
 
-![image-20210927220932989](\typora-user-images\image-20210927220932989.png)
+![image-20210927220932989](./typora-user-images/image-20210927220932989.png)
 
 ### 	java转义字符
 
-![image-20210927221318033](\typora-user-images\image-20210927221318033.png)
+![image-20210927221318033](./typora-user-images/image-20210927221318033.png)
 
 ​		\r只是回车，没有换行，\r以后光标会顶到韩前面，在输出北京，把“韩顺平教育覆盖了”
 
-![image-20210927222033383](\typora-user-images\image-20210927222033383.png)
+![image-20210927222033383](./typora-user-images/image-20210927222033383.png)
 
 ### 注释
 
@@ -62,7 +62,7 @@ javadoc -d d:\\java\temp在那里创建文档
 
 Homework01.java源文件名称
 
-![image-20210927223717648](\typora-user-images\image-20210927223717648.png)
+![image-20210927223717648](./typora-user-images/image-20210927223717648.png)
 
 ### DOS命令
 
@@ -96,7 +96,7 @@ Homework01.java源文件名称
 
 ### 	数据类型
 
-![image-20210928094736083](\typora-user-images\image-20210928094736083.png)
+![image-20210928094736083](./typora-user-images/image-20210928094736083.png)
 
 ```java
 	#### 		整形
@@ -128,7 +128,7 @@ Homework01.java源文件名称
 
 ​		7.陷阱double num=8.1/3，num不等于2.7，而是无限接近2.7，他与2.7差距非常小
 
-![image-20211029110836255](\typora-user-images\image-20211029110836255.png)
+![image-20211029110836255](./typora-user-images/image-20211029110836255.png)
 
 当我们判断8.1/3与2.7是否相等时，就用以上方法。
 
@@ -299,11 +299,11 @@ b += 2; //等价于 b = (byte)(b + 2);
 
 ### 	优先级
 
-![image-20210929114705425](\typora-user-images\image-20210929114705425.png)
+![image-20210929114705425](./typora-user-images/image-20210929114705425.png)
 
 ### 	位运算符
 
-![image-20210929122449956](\typora-user-images\image-20210929122449956.png)
+![image-20210929122449956](./typora-user-images/image-20210929122449956.png)
 
 ​		原码：将最高位作为符号位（0表示正，1表示负），其它数字位代表数值本身的绝对值的数字表示方式。
 
@@ -315,7 +315,7 @@ b += 2; //等价于 b = (byte)(b + 2);
 
 ​		1.按位与&：两位全为1，结果为一，否则为0.
 
-![image-20210929124157442](\typora-user-images\image-20210929124157442.png)
+![image-20210929124157442](./typora-user-images/image-20210929124157442.png)
 
 ​		2.按位或|：两位有一个为1，结果为1，否则为0
 
@@ -339,13 +339,13 @@ b += 2; //等价于 b = (byte)(b + 2);
 //### 	标识符的命名规则和规范
 ```
 
-​		![image-20210929115347112](\typora-user-images\image-20210929115347112.png)
+​		![image-20210929115347112](./typora-user-images/image-20210929115347112.png)
 
 关键字：被java设计者使用。保留字：将来可能会被java设计者是用
 
-![image-20210929115842609](\typora-user-images\image-20210929115842609.png)
+![image-20210929115842609](./typora-user-images/image-20210929115842609.png)
 
-![image-20210929115939437](\typora-user-images\image-20210929115939437.png)
+![image-20210929115939437](./typora-user-images/image-20210929115939437.png)
 
 ```java
 //### 	用户的输入
@@ -459,9 +459,9 @@ do{
 
 ​	1.break在嵌套中可以通过标签指明终止那个循环
 
-![image-20211002080503958](\typora-user-images\image-20211002080503958.png)
+![image-20211002080503958](./typora-user-images/image-20211002080503958.png)
 
-![image-20211002080545418](\typora-user-images\image-20211002080545418.png)
+![image-20211002080545418](./typora-user-images/image-20211002080545418.png)
 
 
 
@@ -543,7 +543,7 @@ String str[] = new String[]{"a", "b", "c"};//这个是可以的
 
 ​		1.int[] [] arr = new int[3] [5];
 
-![image-20211003090534909](\typora-user-images\image-20211003090534909.png)
+![image-20211003090534909](./typora-user-images/image-20211003090534909.png)
 
 ​		2.int arr[] [];
 
@@ -551,7 +551,7 @@ String str[] = new String[]{"a", "b", "c"};//这个是可以的
 
 ​		3.一维数组的个数可以不一样。
 
-![image-20211003101446130](\typora-user-images\image-20211003101446130.png)
+![image-20211003101446130](./typora-user-images/image-20211003101446130.png)
 
 ​		4.		int[[]][][][][] arr = {
 
@@ -567,17 +567,17 @@ String str[] = new String[]{"a", "b", "c"};//这个是可以的
 
 ​		5.杨辉三角
 
-![image-20211003103206943](\typora-user-images\image-20211003103206943.png)
+![image-20211003103206943](./typora-user-images/image-20211003103206943.png)
 
-![image-20211003103441643](\typora-user-images\image-20211003103441643.png)
+![image-20211003103441643](./typora-user-images/image-20211003103441643.png)
 
-![image-20211003103759613](\typora-user-images\image-20211003103759613.png)
+![image-20211003103759613](./typora-user-images/image-20211003103759613.png)
 
-![image-20211003104356763](\typora-user-images\image-20211003104356763.png)
+![image-20211003104356763](./typora-user-images/image-20211003104356763.png)
 
 数组的扩容
 
-![image-20211029122834006](\typora-user-images\image-20211029122834006.png)
+![image-20211029122834006](./typora-user-images/image-20211029122834006.png)
 
 ## 面向对象编程（基础）
 
@@ -587,11 +587,11 @@ String str[] = new String[]{"a", "b", "c"};//这个是可以的
 
 创建对象的流程
 
-![image-20211016094448831](\typora-user-images\image-20211016094448831.png)
+![image-20211016094448831](./typora-user-images/image-20211016094448831.png)
 
-![image-20211003115853177](\typora-user-images\image-20211003115853177.png)
+![image-20211003115853177](./typora-user-images/image-20211003115853177.png)
 
-![image-20211003120252284](\typora-user-images\image-20211003120252284.png)
+![image-20211003120252284](./typora-user-images/image-20211003120252284.png)
 
 ​		
 
@@ -631,7 +631,7 @@ class Cat {
 
 ​		对象的赋值与数组完全相同，都是把地址赋给对方
 
-![image-20211003115708571](\typora-user-images\image-20211003115708571.png)
+![image-20211003115708571](./typora-user-images/image-20211003115708571.png)
 
 ### 	成员方法
 
@@ -650,23 +650,23 @@ class Cat {
 	int vcat1.speak(19,18);
 ```
 
-![image-20211003150912489](\typora-user-images\image-20211003150912489.png)
+![image-20211003150912489](./typora-user-images/image-20211003150912489.png)
 
 当执行return res就表名getsum方法执行完毕，相应的栈空间也被释放；
 
-![image-20211004084603622](\typora-user-images\image-20211004084603622.png)
+![image-20211004084603622](./typora-user-images/image-20211004084603622.png)
 
-![image-20211004085156904](\typora-user-images\image-20211004085156904.png)
+![image-20211004085156904](./typora-user-images/image-20211004085156904.png)
 
-![image-20211007075709732](\typora-user-images\image-20211007075709732.png)
+![image-20211007075709732](./typora-user-images/image-20211007075709732.png)
 
 ### 	成员方法传参机制
 
-![image-20211007080538382](\typora-user-images\image-20211007080538382.png)
+![image-20211007080538382](./typora-user-images/image-20211007080538382.png)
 
-![image-20211007081517630](\typora-user-images\image-20211007081517630.png)
+![image-20211007081517630](./typora-user-images/image-20211007081517630.png)
 
-![image-20211007082043313](\typora-user-images\image-20211007082043313.png)
+![image-20211007082043313](./typora-user-images/image-20211007082043313.png)
 
 ​		老鼠出迷宫
 
@@ -801,45 +801,45 @@ public class OopObject {
 
 ### 	可变参数
 
-![image-20211011084209862](\typora-user-images\image-20211011084209862.png)![image-20211011084745839](\typora-user-images\image-20211011084745839.png)
+![image-20211011084209862](./typora-user-images/image-20211011084209862.png)![image-20211011084745839](./typora-user-images/image-20211011084745839.png)
 
-![image-20211011084624756](\typora-user-images\image-20211011084624756.png)
+![image-20211011084624756](./typora-user-images/image-20211011084624756.png)
 
-![image-20211011085049978](\typora-user-images\image-20211011085049978.png)
+![image-20211011085049978](./typora-user-images/image-20211011085049978.png)
 
 ### 	作用域
 
-![image-20211011085859336](\typora-user-images\image-20211011085859336.png)
+![image-20211011085859336](./typora-user-images/image-20211011085859336.png)
 
-![image-20211011090146125](\typora-user-images\image-20211011090146125.png)
+![image-20211011090146125](./typora-user-images/image-20211011090146125.png)
 
-![image-20211011090503055](\typora-user-images\image-20211011090503055.png)
+![image-20211011090503055](./typora-user-images/image-20211011090503055.png)
 
 ### 	构造器
 
-![image-20211011090807255](\typora-user-images\image-20211011090807255.png)
+![image-20211011090807255](./typora-user-images/image-20211011090807255.png)
 
-![image-20211011091030174](\typora-user-images\image-20211011091030174.png)
+![image-20211011091030174](./typora-user-images/image-20211011091030174.png)
 
-![image-20211011091349721](\typora-user-images\image-20211011091349721.png)
+![image-20211011091349721](./typora-user-images/image-20211011091349721.png)
 
-![image-20211011091702838](\typora-user-images\image-20211011091702838.png)
+![image-20211011091702838](./typora-user-images/image-20211011091702838.png)
 
-![image-20211011092133290](\typora-user-images\image-20211011092133290.png)
+![image-20211011092133290](./typora-user-images/image-20211011092133290.png)
 
-![image-20211011093022747](\typora-user-images\image-20211011093022747.png)
+![image-20211011093022747](./typora-user-images/image-20211011093022747.png)
 
-![image-20211011093255762](\typora-user-images\image-20211011093255762.png)
+![image-20211011093255762](./typora-user-images/image-20211011093255762.png)
 
 ### 	this
 
 ​		java虚拟机会给每个对象分配this，代表对象。
 
-![image-20211011094417423](\typora-user-images\image-20211011094417423.png)
+![image-20211011094417423](./typora-user-images/image-20211011094417423.png)
 
-![image-20211011105454014](\typora-user-images\image-20211011105454014.png)
+![image-20211011105454014](./typora-user-images/image-20211011105454014.png)
 
-![image-20211029193306046](\typora-user-images\image-20211029193306046.png)
+![image-20211029193306046](./typora-user-images/image-20211029193306046.png)
 
 ## 面向对象编程（中级）
 
@@ -847,7 +847,7 @@ public class OopObject {
 
 ### IDEA
 
-![image-20211011134942037](\typora-user-images\image-20211011134942037.png)
+![image-20211011134942037](./typora-user-images/image-20211011134942037.png)
 
 删除当前行：ctrl+y
 
@@ -873,31 +873,31 @@ public class OopObject {
 
 ### 包
 
-![image-20211012145556041](\typora-user-images\image-20211012145556041.png)
+![image-20211012145556041](./typora-user-images/image-20211012145556041.png)
 
-​	![image-20211012145846408](\typora-user-images\image-20211012145846408.png)
+​	![image-20211012145846408](./typora-user-images/image-20211012145846408.png)
 
-![image-20211012150937408](\typora-user-images\image-20211012150937408.png)
+![image-20211012150937408](./typora-user-images/image-20211012150937408.png)
 
 ### 访问修饰符
 
-![image-20211012151854777](\typora-user-images\image-20211012151854777.png)
+![image-20211012151854777](./typora-user-images/image-20211012151854777.png)
 
-![image-20211012152007487](\typora-user-images\image-20211012152007487.png)
+![image-20211012152007487](./typora-user-images/image-20211012152007487.png)
 
 只有默认和public可与修饰类
 
 ### 封装*
 
-![image-20211012154004437](\typora-user-images\image-20211012154004437.png)
+![image-20211012154004437](./typora-user-images/image-20211012154004437.png)
 
-![image-20211012154153169](\typora-user-images\image-20211012154153169.png)
+![image-20211012154153169](./typora-user-images/image-20211012154153169.png)
 
-![image-20211012154401257](\typora-user-images\image-20211012154401257.png)
+![image-20211012154401257](./typora-user-images/image-20211012154401257.png)
 
 案例
 
-![image-20211012154610953](\typora-user-images\image-20211012154610953.png)
+![image-20211012154610953](./typora-user-images/image-20211012154610953.png)
 
 ```java
 package com.hspedu.encap;
@@ -974,7 +974,7 @@ class Person{
 
 ### 继承*
 
-![image-20211012165236726](\typora-user-images\image-20211012165236726.png)
+![image-20211012165236726](./typora-user-images/image-20211012165236726.png)
 
 细节
 
@@ -998,7 +998,7 @@ class Person{
 
 本质
 
-![image-20211012180248424](\typora-user-images\image-20211012180248424.png)
+![image-20211012180248424](./typora-user-images/image-20211012180248424.png)
 
 当父类与子类的变量名相同时。用子类创建对象并打印该属性，则会先找子类然后是父类，依次往上找。（注意：当父类有age并且是私有的，爷爷类也有age是公共的。你再访问age时，因为在父类找到了age是私有的，直接报错，不会访问爷爷类）
 
@@ -1012,17 +1012,17 @@ class Person{
 
 <u>对象多态</u>：
 
-![image-20211016121122908](\typora-user-images\image-20211016121122908.png)
+![image-20211016121122908](./typora-user-images/image-20211016121122908.png)
 
-![image-20211013112154652](\typora-user-images\image-20211013112154652.png)
+![image-20211013112154652](./typora-user-images/image-20211013112154652.png)
 
 Animal是父类Dog，cat是子类。
 
 当父类与子类有同名方法时，再用animal调用方法就会找运行类型的方法。
 
-![image-20211013113656723](\typora-user-images\image-20211013113656723.png)
+![image-20211013113656723](./typora-user-images/image-20211013113656723.png)
 
-![image-20211013113537752](\typora-user-images\image-20211013113537752.png)
+![image-20211013113537752](./typora-user-images/image-20211013113537752.png)
 
 细节：
 
@@ -1032,61 +1032,61 @@ Animal是父类Dog，cat是子类。
 
 方法的规则
 
-![image-20211013114124585](\typora-user-images\image-20211013114124585.png)
+![image-20211013114124585](./typora-user-images/image-20211013114124585.png)
 
-![image-20211013114613221](\typora-user-images\image-20211013114613221.png)
+![image-20211013114613221](./typora-user-images/image-20211013114613221.png)
 
 向上转型：子类自己的成员不能调用：
 
 注意：--特有--两字
 
-![image-20211013115228623](\typora-user-images\image-20211013115228623.png)
+![image-20211013115228623](./typora-user-images/image-20211013115228623.png)
 
-![image-20211013115914795](\typora-user-images\image-20211013115914795.png)
+![image-20211013115914795](./typora-user-images/image-20211013115914795.png)
 
-![image-20211029201654758](\typora-user-images\image-20211029201654758.png)
+![image-20211029201654758](./typora-user-images/image-20211029201654758.png)
 
 ---
 
 属性的规则
 
-![image-20211013122744906](\typora-user-images\image-20211013122744906.png)
+![image-20211013122744906](./typora-user-images/image-20211013122744906.png)
 
 属性的值主要看编译类型的属性, 那里定义那里使用。
 
 <u>向下转型</u>
 
-![image-20211013122114268](\typora-user-images\image-20211013122114268.png)
+![image-20211013122114268](./typora-user-images/image-20211013122114268.png)
 
 如果想调用子类的成员必须用向下转型，（本质，将父类的引用强行转换为子类的引用，原来父类引用名还是指向子类创建的对象）
 
-![image-20211013121809332](\typora-user-images\image-20211013121809332.png)
+![image-20211013121809332](./typora-user-images/image-20211013121809332.png)
 
 ---
 
 **<u>instanceof</u>**用于判断对象的 **<u>运行</u>** 类型是否为xx类型或xx类型的子类型。
 
-![image-20211013123329670](\typora-user-images\image-20211013123329670.png)
+![image-20211013123329670](./typora-user-images/image-20211013123329670.png)
 
 练习
 
 ---
 
-![image-20211013135454440](\typora-user-images\image-20211013135454440.png)
+![image-20211013135454440](./typora-user-images/image-20211013135454440.png)
 
-![image-20211013140054455](\typora-user-images\image-20211013140054455.png)
+![image-20211013140054455](./typora-user-images/image-20211013140054455.png)
 
 <u>多态的数组</u>
 
-![image-20211013143506470](\typora-user-images\image-20211013143506470.png)
+![image-20211013143506470](./typora-user-images/image-20211013143506470.png)
 
-![image-20211013142240164](\typora-user-images\image-20211013142240164.png)
+![image-20211013142240164](./typora-user-images/image-20211013142240164.png)
 
-![image-20211013143132024](\typora-user-images\image-20211013143132024.png)
+![image-20211013143132024](./typora-user-images/image-20211013143132024.png)
 
 ### 动态绑定机制*
 
-![image-20211013141322402](\typora-user-images\image-20211013141322402.png)
+![image-20211013141322402](./typora-user-images/image-20211013141322402.png)
 
 当在父类中调用geti时，因为geti绑定了运行机制，所以会先执行运行属性的方法
 
@@ -1104,13 +1104,13 @@ cal()
 
 this.cal()
 
-![image-20211013095001572](\typora-user-images\image-20211013095001572.png)
+![image-20211013095001572](./typora-user-images/image-20211013095001572.png)
 
 suber.cal()
 
 ​	直接查找父类
 
-![image-20211013095813951](\typora-user-images\image-20211013095813951.png)
+![image-20211013095813951](./typora-user-images/image-20211013095813951.png)
 
 ### overwrite（方法的覆盖）
 
@@ -1118,9 +1118,9 @@ suber.cal()
 
 细节
 
-![image-20211013100839402](\typora-user-images\image-20211013100839402.png)
+![image-20211013100839402](./typora-user-images/image-20211013100839402.png)
 
-![image-20211013101310156](\typora-user-images\image-20211013101310156.png)
+![image-20211013101310156](./typora-user-images/image-20211013101310156.png)
 
 ### Object类详解
 
@@ -1128,7 +1128,7 @@ suber.cal()
 
 equals方法：
 
-![image-20211015192533613](\typora-user-images\image-20211015192533613.png)
+![image-20211015192533613](./typora-user-images/image-20211015192533613.png)
 
 object写的equals用于判断两个对象的地址是否相同
 
@@ -1201,13 +1201,13 @@ class Person{
 
 练习：
 
-![image-20211016070017776](\typora-user-images\image-20211016070017776.png)
+![image-20211016070017776](./typora-user-images/image-20211016070017776.png)
 
-![image-20211016070432043](\typora-user-images\image-20211016070432043.png)
+![image-20211016070432043](./typora-user-images/image-20211016070432043.png)
 
 hashCode()方法
 
-![image-20211016082801170](\typora-user-images\image-20211016082801170.png)
+![image-20211016082801170](./typora-user-images/image-20211016082801170.png)
 
 toString
 
@@ -1225,17 +1225,17 @@ finalize方法
 
 我们在实际开发中几乎不用，主要是应付面试
 
-![image-20211016085128207](\typora-user-images\image-20211016085128207.png)
+![image-20211016085128207](./typora-user-images/image-20211016085128207.png)
 
-![image-20211016084704491](\typora-user-images\image-20211016084704491.png)
+![image-20211016084704491](./typora-user-images/image-20211016084704491.png)
 
-![image-20211016084855739](\typora-user-images\image-20211016084855739.png)
+![image-20211016084855739](./typora-user-images/image-20211016084855739.png)
 
 ### 断点调试
 
-![image-20211016085939910](\typora-user-images\image-20211016085939910.png)
+![image-20211016085939910](./typora-user-images/image-20211016085939910.png)
 
-![image-20211016085921580](\typora-user-images\image-20211016085921580.png)
+![image-20211016085921580](./typora-user-images/image-20211016085921580.png)
 
 步入方法有两种，第一强制步入，第二需要找到文件->设置->构造、执行、部署->调试器->步入->把java.* *与javax.* *关闭。
 
@@ -1243,7 +1243,7 @@ finalize方法
 
 Idea默认情况下，Debug 显示的数据时简化后的，如果想看完整的数据，需要设置
 
-![image-20211025114512832](\typora-user-images\image-20211025114512832.png)
+![image-20211025114512832](./typora-user-images/image-20211025114512832.png)
 
 
 
@@ -1251,13 +1251,13 @@ Idea默认情况下，Debug 显示的数据时简化后的，如果想看完整�
 
 作业
 
-![image-20211016112003778](\typora-user-images\image-20211016112003778.png)
+![image-20211016112003778](./typora-user-images/image-20211016112003778.png)
 
 ==与equals的区别
 
-![image-20211016114549502](\typora-user-images\image-20211016114549502.png)
+![image-20211016114549502](./typora-user-images/image-20211016114549502.png)
 
-![image-20211205124218667](\typora-user-images\image-20211205124218667.png)
+![image-20211205124218667](./typora-user-images/image-20211205124218667.png)
 
 ## 项目&学以致用
 
@@ -1340,43 +1340,43 @@ System.out.println("a.name=" + a.name);
 
 ​		细节
 
-![image-20211017094648760](\typora-user-images\image-20211017094648760.png)
+![image-20211017094648760](./typora-user-images/image-20211017094648760.png)
 
-![image-20211017094919335](\typora-user-images\image-20211017094919335.png)
+![image-20211017094919335](./typora-user-images/image-20211017094919335.png)
 
 ​		静态方法：只能访问静态成员（当作工具来使用），当方法中不涉及任何和对象相关的成员，则可以将方法设计成静态方法，提高开发效率。
 
-![image-20211017095105527](\typora-user-images\image-20211017095105527.png)
+![image-20211017095105527](./typora-user-images/image-20211017095105527.png)
 
 注意：
 
-![image-20211017100650707](\typora-user-images\image-20211017100650707.png)
+![image-20211017100650707](./typora-user-images/image-20211017100650707.png)
 
-![image-20211017101022391](\typora-user-images\image-20211017101022391.png)
+![image-20211017101022391](./typora-user-images/image-20211017101022391.png)
 
 ### 	理解main方法语法
 
 ​		args是如何传入的，在执行程序中可以传递参数
 
-![image-20211017102437107](\typora-user-images\image-20211017102437107.png)
+![image-20211017102437107](./typora-user-images/image-20211017102437107.png)
 
 ​		注意：
 
-![image-20211017102837685](\typora-user-images\image-20211017102837685.png)
+![image-20211017102837685](./typora-user-images/image-20211017102837685.png)
 
 ### 	代码块
 
 ​		基本介绍：当我们调用构造器时，都会调用代码块。rou先调用代码块再调用构造器。类加载时就会被执行。
 
-![image-20211017103410965](\typora-user-images\image-20211017103410965.png)
+![image-20211017103410965](./typora-user-images/image-20211017103410965.png)
 
 ​		好处
 
-![image-20211017103955312](\typora-user-images\image-20211017103955312.png)
+![image-20211017103955312](./typora-user-images/image-20211017103955312.png)
 
 * **细节**
 
-  ![image-20211017104814622](\typora-user-images\image-20211017104814622.png)
+  ![image-20211017104814622](./typora-user-images/image-20211017104814622.png)
 
   静态代码块会在类加载时被执行，加载静态方法时也会被执行。只会加载一次。
 
@@ -1388,7 +1388,7 @@ System.out.println("a.name=" + a.name);
 
   优先级
 
-  ![image-20211017111221452](\typora-user-images\image-20211017111221452.png)
+  ![image-20211017111221452](./typora-user-images/image-20211017111221452.png)
 
   ```java
   class A {
@@ -1405,19 +1405,19 @@ System.out.println("a.name=" + a.name);
   }
   ```
 
-  ![image-20211017112304801](\typora-user-images\image-20211017112304801.png)
+  ![image-20211017112304801](./typora-user-images/image-20211017112304801.png)
 
   构造器中相当于先调用suber，再调用本类的静态代码块，先走完静态，再调用普通代码块，最后走构造器
 
-  <img src="\typora-user-images\image-20211017113141457.png" alt="image-20211017113141457" style="zoom:80%;" />
+  <img src="./typora-user-images/image-20211017113141457.png" alt="image-20211017113141457" style="zoom:80%;" />
 
   例子
 
-  ![image-20211017122357010](\typora-user-images\image-20211017122357010.png)
+  ![image-20211017122357010](./typora-user-images/image-20211017122357010.png)
 
 ### 	单例设计模式
 
-![image-20211017132430962](\typora-user-images\image-20211017132430962.png)
+![image-20211017132430962](./typora-user-images/image-20211017132430962.png)
 
 在还没有使用的时候，对象就已经创建好了。
 
@@ -1454,7 +1454,7 @@ class AA {
 }
 ```
 
-![image-20211017135111723](\typora-user-images\image-20211017135111723.png)
+![image-20211017135111723](./typora-user-images/image-20211017135111723.png)
 
 只有使用才创建
 
@@ -1495,19 +1495,19 @@ class Cat{
 }
 ```
 
-![image-20211017140904915](\typora-user-images\image-20211017140904915.png)
+![image-20211017140904915](./typora-user-images/image-20211017140904915.png)
 
 ### 	final关键字
 
-![image-20211018135134865](\typora-user-images\image-20211018135134865.png)
+![image-20211018135134865](./typora-user-images/image-20211018135134865.png)
 
 细节
 
-![image-20211018140609525](\typora-user-images\image-20211018140609525.png)
+![image-20211018140609525](./typora-user-images/image-20211018140609525.png)
 
 一般会把final与static混合使用，当用final修饰静态属性，用类调用属性，静态方法不会被加载。
 
-![image-20211018141326891](\typora-user-images\image-20211018141326891.png)
+![image-20211018141326891](./typora-user-images/image-20211018141326891.png)
 
 final可以在方法形参中使用。
 
@@ -1521,11 +1521,11 @@ final可以在方法形参中使用。
 
 抽象类不能被创建（实例化）
 
-![image-20211018144356226](\typora-user-images\image-20211018144356226.png)
+![image-20211018144356226](./typora-user-images/image-20211018144356226.png)
 
-![image-20211018144653313](\typora-user-images\image-20211018144653313.png)
+![image-20211018144653313](./typora-user-images/image-20211018144653313.png)
 
-![image-20211018145005384](\typora-user-images\image-20211018145005384.png)
+![image-20211018145005384](./typora-user-images/image-20211018145005384.png)
 
 ### 	接口*
 
@@ -1598,7 +1598,7 @@ public class interface01 {
 }
 ```
 
-![image-20211018163317241](\typora-user-images\image-20211018163317241.png)
+![image-20211018163317241](./typora-user-images/image-20211018163317241.png)
 
 细节
 
@@ -1612,11 +1612,11 @@ public class interface01 {
 
 3.一个普通类实现接口，就必须将该接口的所有方法都实现，alt+enter
 
-![image-20211018170416731](\typora-user-images\image-20211018170416731.png)
+![image-20211018170416731](./typora-user-images/image-20211018170416731.png)
 
-![image-20211018172336507](\typora-user-images\image-20211018172336507.png)
+![image-20211018172336507](./typora-user-images/image-20211018172336507.png)
 
-![image-20211018172740704](\typora-user-images\image-20211018172740704.png)
+![image-20211018172740704](./typora-user-images/image-20211018172740704.png)
 
 接口与继承类
 
@@ -1657,9 +1657,9 @@ class Qter{
 
 通常在方法和代码块中
 
-![image-20211020093552256](\typora-user-images\image-20211020093552256.png)
+![image-20211020093552256](./typora-user-images/image-20211020093552256.png)
 
-![image-20211020094259432](\typora-user-images\image-20211020094259432.png)
+![image-20211020094259432](./typora-user-images/image-20211020094259432.png)
 
 外部类名.this。就是外部类的对象，谁调用了外部类，那么外部类名.this就代表那个对象。
 
@@ -1703,15 +1703,15 @@ class Qter{
 
 细节：
 
-![image-20211020105555447](\typora-user-images\image-20211020105555447.png)
+![image-20211020105555447](./typora-user-images/image-20211020105555447.png)
 
-![image-20211020105152638](\typora-user-images\image-20211020105152638.png)
+![image-20211020105152638](./typora-user-images/image-20211020105152638.png)
 
-![image-20211020105408042](\typora-user-images\image-20211020105408042.png)
+![image-20211020105408042](./typora-user-images/image-20211020105408042.png)
 
-![image-20211020111410502](\typora-user-images\image-20211020111410502.png)
+![image-20211020111410502](./typora-user-images/image-20211020111410502.png)
 
-![image-20211020111515965](\typora-user-images\image-20211020111515965.png)
+![image-20211020111515965](./typora-user-images/image-20211020111515965.png)
 
 外部类名.this是对象。
 
@@ -1807,9 +1807,9 @@ class Cellphone {
 
  可以添加任意访问修饰符
 
-![image-20211020124312341](\typora-user-images\image-20211020124312341.png)
+![image-20211020124312341](./typora-user-images/image-20211020124312341.png)
 
-![image-20211020125819010](\typora-user-images\image-20211020125819010.png)
+![image-20211020125819010](./typora-user-images/image-20211020125819010.png)
 
 外部其他类访问内部类
 
@@ -1842,7 +1842,7 @@ new Outer10.Inner10 inner10 = new Outer.Inner10()//可以通过类名直接访�
 
 编写一个方法，可以返回静态内部类的实例
 
-![image-20211020132733282](\typora-user-images\image-20211020132733282.png)
+![image-20211020132733282](./typora-user-images/image-20211020132733282.png)
 
 ### 作业
 
@@ -1923,9 +1923,9 @@ class Person {
 
 ### 自定义实现枚举
 
-![image-20211020140043730](\typora-user-images\image-20211020140043730.png)
+![image-20211020140043730](./typora-user-images/image-20211020140043730.png)
 
-![image-20211020140209857](\typora-user-images\image-20211020140209857.png)
+![image-20211020140209857](./typora-user-images/image-20211020140209857.png)
 
 枚举1
 
@@ -1981,7 +1981,7 @@ javac编译
 
 javap反编译
 
-![image-20211020191520171](\typora-user-images\image-20211020191520171.png)
+![image-20211020191520171](./typora-user-images/image-20211020191520171.png)
 
 ```java
 package com.hspedu.enum_;
@@ -2044,7 +2044,7 @@ enum Season{
 }
 ```
 
-![image-20211020192140528](\typora-user-images\image-20211020192140528.png)
+![image-20211020192140528](./typora-user-images/image-20211020192140528.png)
 
 Enum常用的方法：
 
@@ -2054,29 +2054,29 @@ Enum常用的方法：
 
 @target访问空间
 
-![image-20211020195619399](\typora-user-images\image-20211020195619399.png)
+![image-20211020195619399](./typora-user-images/image-20211020195619399.png)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-![image-20211020200227503](\typora-user-images\image-20211020200227503.png)
+![image-20211020200227503](./typora-user-images/image-20211020200227503.png)
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-![image-20211020200000597](\typora-user-images\image-20211020200000597.png)![image-20211020200156389](\typora-user-images\image-20211020200156389.png)
+![image-20211020200000597](./typora-user-images/image-20211020200000597.png)![image-20211020200156389](./typora-user-images/image-20211020200156389.png)
 
-![image-20211020200627973](\typora-user-images\image-20211020200627973.png)
+![image-20211020200627973](./typora-user-images/image-20211020200627973.png)
 
 还有类型（TYPE),可以做版本升级过度使用
 
 all抑制所有警告
 
-![image-20211020201213003](\typora-user-images\image-20211020201213003.png)
+![image-20211020201213003](./typora-user-images/image-20211020201213003.png)
 
-![image-20211020201547167](\typora-user-images\image-20211020201547167.png)
+![image-20211020201547167](./typora-user-images/image-20211020201547167.png)
 
 ### 元注解：对注解进行注解
 
-![image-20211020202321475](\typora-user-images\image-20211020202321475.png)
+![image-20211020202321475](./typora-user-images/image-20211020202321475.png)
 
 作业
 
@@ -2135,19 +2135,19 @@ enum Color implements IMyInterface{
 
 将发生异常的代码块选中->快捷键ctrl + alt + t -> 选中 try-catch
 
-![image-20211022085425580](\typora-user-images\image-20211022085425580.png)
+![image-20211022085425580](./typora-user-images/image-20211022085425580.png)
 
 ### 异常的体系图**
 
-![image-20211022090448709](\typora-user-images\image-20211022090448709.png)
+![image-20211022090448709](./typora-user-images/image-20211022090448709.png)
 
-![image-20211022090745479](\typora-user-images\image-20211022090745479.png)
+![image-20211022090745479](./typora-user-images/image-20211022090745479.png)
 
 ### 常见的异常
 
 常见的五个运行时异常：
 
-![image-20211022091106916](\typora-user-images\image-20211022091106916.png)
+![image-20211022091106916](./typora-user-images/image-20211022091106916.png)
 
 1. ```java
    String name = null;
@@ -2188,39 +2188,39 @@ enum Color implements IMyInterface{
 
 常见的编译异常
 
-![image-20211022092252690](\typora-user-images\image-20211022092252690.png)
+![image-20211022092252690](./typora-user-images/image-20211022092252690.png)
 
 ### 异常处理**
 
-![image-20211022092938895](\typora-user-images\image-20211022092938895.png)
+![image-20211022092938895](./typora-user-images/image-20211022092938895.png)
 
-![image-20211022093255149](\typora-user-images\image-20211022093255149.png)
+![image-20211022093255149](./typora-user-images/image-20211022093255149.png)
 
-![image-20211022093752135](\typora-user-images\image-20211022093752135.png)
+![image-20211022093752135](./typora-user-images/image-20211022093752135.png)
 
-![image-20211022093817487](\typora-user-images\image-20211022093817487.png)
+![image-20211022093817487](./typora-user-images/image-20211022093817487.png)
 
 **try-catch-finally的细节：**
 
-![image-20211022095606637](\typora-user-images\image-20211022095606637.png)
+![image-20211022095606637](./typora-user-images/image-20211022095606637.png)
 
-![image-20211022095338900](\typora-user-images\image-20211022095338900.png)![image-20211022095358684](\typora-user-images\image-20211022095358684.png)
+![image-20211022095338900](./typora-user-images/image-20211022095338900.png)![image-20211022095358684](./typora-user-images/image-20211022095358684.png)
 
-![image-20211022100139536](\typora-user-images\image-20211022100139536.png)
+![image-20211022100139536](./typora-user-images/image-20211022100139536.png)
 
-![image-20211022100304835](\typora-user-images\image-20211022100304835.png)
+![image-20211022100304835](./typora-user-images/image-20211022100304835.png)
 
-![image-20211022100214828](\typora-user-images\image-20211022100214828.png)
+![image-20211022100214828](./typora-user-images/image-20211022100214828.png)
 
-![image-20211022100459155](\typora-user-images\image-20211022100459155.png)
+![image-20211022100459155](./typora-user-images/image-20211022100459155.png)
 
 练习：
 
-![image-20211022103146144](\typora-user-images\image-20211022103146144.png)
+![image-20211022103146144](./typora-user-images/image-20211022103146144.png)
 
-![image-20211022103630724](\typora-user-images\image-20211022103630724.png)
+![image-20211022103630724](./typora-user-images/image-20211022103630724.png)
 
-![image-20211022103739308](\typora-user-images\image-20211022103739308.png)
+![image-20211022103739308](./typora-user-images/image-20211022103739308.png)
 
 练习：
 
@@ -2248,23 +2248,23 @@ public class Excption02 {
 
 **throws异常处理**
 
-![image-20211022115449891](\typora-user-images\image-20211022115449891.png)
+![image-20211022115449891](./typora-user-images/image-20211022115449891.png)
 
-![image-20211022115514345](\typora-user-images\image-20211022115514345.png)
+![image-20211022115514345](./typora-user-images/image-20211022115514345.png)
 
 细节：
 
-![image-20211022120251227](\typora-user-images\image-20211022120251227.png)
+![image-20211022120251227](./typora-user-images/image-20211022120251227.png)
 
-![image-20211022120726799](\typora-user-images\image-20211022120726799.png)
+![image-20211022120726799](./typora-user-images/image-20211022120726799.png)
 
-![image-20211022121024153](\typora-user-images\image-20211022121024153.png)
+![image-20211022121024153](./typora-user-images/image-20211022121024153.png)
 
 ### 异常的分类
 
 ### 自定义异常
 
-![image-20211022122414289](\typora-user-images\image-20211022122414289.png)
+![image-20211022122414289](./typora-user-images/image-20211022122414289.png)
 
 ```java
 package com.hspedu.exeption;
@@ -2289,13 +2289,13 @@ class AgeException extends RuntimeException {
 }
 ```
 
-![image-20211022124859108](\typora-user-images\image-20211022124859108.png)
+![image-20211022124859108](./typora-user-images/image-20211022124859108.png)
 
 ### throw和throws的对比
 
- ![image-20211022125035955](\typora-user-images\image-20211022125035955.png)
+ ![image-20211022125035955](./typora-user-images/image-20211022125035955.png)
 
-![image-20211022125635775](\typora-user-images\image-20211022125635775.png)
+![image-20211022125635775](./typora-user-images/image-20211022125635775.png)
 
 异常处理过以后不会退出程序
 
@@ -2307,19 +2307,19 @@ class AgeException extends RuntimeException {
 
 基本数据类型不是对象，把基本数据类型转化为对象，就称包装类
 
-![image-20211022134717460](\typora-user-images\image-20211022134717460.png)
+![image-20211022134717460](./typora-user-images/image-20211022134717460.png)
 
-![image-20211022135250998](\typora-user-images\image-20211022135250998.png)
+![image-20211022135250998](./typora-user-images/image-20211022135250998.png)
 
-![image-20211022135320638](\typora-user-images\image-20211022135320638.png)
+![image-20211022135320638](./typora-user-images/image-20211022135320638.png)
 
-![image-20211022135303264](\typora-user-images\image-20211022135303264.png)
+![image-20211022135303264](./typora-user-images/image-20211022135303264.png)
 
 **装箱和拆箱**
 
 基本数据类型转换
 
-![image-20211022140555863](\typora-user-images\image-20211022140555863.png)
+![image-20211022140555863](./typora-user-images/image-20211022140555863.png)
 
 ```java
 package com.hspedu.exeption;
@@ -2346,7 +2346,7 @@ public class Interger {
 
 练习：
 
-![image-20211022141252188](\typora-user-images\image-20211022141252188.png)
+![image-20211022141252188](./typora-user-images/image-20211022141252188.png)
 
 包装类型与string的相互转换
 
@@ -2367,15 +2367,15 @@ public class Interger {
         Integer i3 = new Integer(str4)
 ```
 
-![image-20211022143835166](\typora-user-images\image-20211022143835166.png)
+![image-20211022143835166](./typora-user-images/image-20211022143835166.png)
 
 练习：
 
-![image-20211022144915275](\typora-user-images\image-20211022144915275.png)
+![image-20211022144915275](./typora-user-images/image-20211022144915275.png)
 
-![image-20211022145218352](\typora-user-images\image-20211022145218352.png)
+![image-20211022145218352](./typora-user-images/image-20211022145218352.png)
 
-![image-20211022145321381](\typora-user-images\image-20211022145321381.png)
+![image-20211022145321381](./typora-user-images/image-20211022145321381.png)
 
 ### 	String**
 
@@ -2384,80 +2384,80 @@ String s = "hsp";
 String s1 = new String("hsp");
 ```
 
-![image-20211030103934522](\typora-user-images\image-20211030103934522.png)
+![image-20211030103934522](./typora-user-images/image-20211030103934522.png)
 
-![image-20211022150746661](\typora-user-images\image-20211022150746661.png)
+![image-20211022150746661](./typora-user-images/image-20211022150746661.png)
 
-![image-20211022150803919](\typora-user-images\image-20211022150803919.png)
+![image-20211022150803919](./typora-user-images/image-20211022150803919.png)
 
-![image-20211022150025947](\typora-user-images\image-20211022150025947.png)
+![image-20211022150025947](./typora-user-images/image-20211022150025947.png)
 
 串行化表示可以在网络传输
 
 
 
-![image-20211022151516667](\typora-user-images\image-20211022151516667.png)
+![image-20211022151516667](./typora-user-images/image-20211022151516667.png)
 
-![image-20211022151432577](\typora-user-images\image-20211022151432577.png)
+![image-20211022151432577](./typora-user-images/image-20211022151432577.png)
 
-![image-20211022151846772](\typora-user-images\image-20211022151846772.png)
+![image-20211022151846772](./typora-user-images/image-20211022151846772.png)
 
 练习：
 
-![image-20211022153032407](\typora-user-images\image-20211022153032407.png)
+![image-20211022153032407](./typora-user-images/image-20211022153032407.png)
 
-![image-20211022154305254](\typora-user-images\image-20211022154305254.png)
+![image-20211022154305254](./typora-user-images/image-20211022154305254.png)
 
-   ![image-20211022155423745](\typora-user-images\image-20211022155423745.png)
+   ![image-20211022155423745](./typora-user-images/image-20211022155423745.png)
 
-![image-20211022155553962](\typora-user-images\image-20211022155553962.png)
+![image-20211022155553962](./typora-user-images/image-20211022155553962.png)
 
 
 
-![image-20211022160701782](\typora-user-images\image-20211022160701782.png)
+![image-20211022160701782](./typora-user-images/image-20211022160701782.png)
 
-![image-20211022160621753](\typora-user-images\image-20211022160621753.png)
+![image-20211022160621753](./typora-user-images/image-20211022160621753.png)
 
 看源码学习
 
 String常见的方法：
 
-![image-20211022163143848](\typora-user-images\image-20211022163143848.png)
+![image-20211022163143848](./typora-user-images/image-20211022163143848.png)
 
-![image-20211022163641296](\typora-user-images\image-20211022163641296.png)
+![image-20211022163641296](./typora-user-images/image-20211022163641296.png)
 
-![image-20211022163911176](\typora-user-images\image-20211022163911176.png)
+![image-20211022163911176](./typora-user-images/image-20211022163911176.png)
 
-![image-20211022164012570](\typora-user-images\image-20211022164012570.png)
+![image-20211022164012570](./typora-user-images/image-20211022164012570.png)
 
-![image-20211022164039715](\typora-user-images\image-20211022164039715.png)
+![image-20211022164039715](./typora-user-images/image-20211022164039715.png)
 
-![image-20211022164751545](\typora-user-images\image-20211022164751545.png)
+![image-20211022164751545](./typora-user-images/image-20211022164751545.png)
 
 ### 	StringBuffer**
 
-![image-20211023075643994](\typora-user-images\image-20211023075643994.png)
+![image-20211023075643994](./typora-user-images/image-20211023075643994.png)
 
-![image-20211023080113936](\typora-user-images\image-20211023080113936.png)
+![image-20211023080113936](./typora-user-images/image-20211023080113936.png)
 
 构造器的使用
 
-![image-20211023080738209](\typora-user-images\image-20211023080738209.png)
+![image-20211023080738209](./typora-user-images/image-20211023080738209.png)
 
 
 String与StringBuffer相互转换
 
-![image-20211023081123344](\typora-user-images\image-20211023081123344.png)
+![image-20211023081123344](./typora-user-images/image-20211023081123344.png)
 
-![image-20211023081411355](\typora-user-images\image-20211023081411355.png)
+![image-20211023081411355](./typora-user-images/image-20211023081411355.png)
 
 常用方法  
 
-![image-20211023081521276](\typora-user-images\image-20211023081521276.png)
+![image-20211023081521276](./typora-user-images/image-20211023081521276.png)
 
 练习题：
 
-![image-20211023082329585](\typora-user-images\image-20211023082329585.png)
+![image-20211023082329585](./typora-user-images/image-20211023082329585.png)
 
 ```java
 package com.hspedu.exeption;
@@ -2478,74 +2478,74 @@ public class String01 {
 
 ### 	StringBuilder**
 
-![image-20211023085611881](\typora-user-images\image-20211023085611881.png)
+![image-20211023085611881](./typora-user-images/image-20211023085611881.png)
 
-![image-20211023090241243](\typora-user-images\image-20211023090241243.png)
+![image-20211023090241243](./typora-user-images/image-20211023090241243.png)
 
 String与StringBuffer与StringBuilder的比较
 
-![image-20211023090545950](\typora-user-images\image-20211023090545950.png)
+![image-20211023090545950](./typora-user-images/image-20211023090545950.png)
 
 效率strinBilder>StringBuffer>String
 
-![image-20211023090836663](\typora-user-images\image-20211023090836663.png)
+![image-20211023090836663](./typora-user-images/image-20211023090836663.png)
 
 ### 	Math(数学函数)
 
-![image-20211023091214766](\typora-user-images\image-20211023091214766.png)
+![image-20211023091214766](./typora-user-images/image-20211023091214766.png)
 
-![image-20211023091328472](\typora-user-images\image-20211023091328472.png)
+![image-20211023091328472](./typora-user-images/image-20211023091328472.png)
 
-![image-20211023092421381](\typora-user-images\image-20211023092421381.png)
+![image-20211023092421381](./typora-user-images/image-20211023092421381.png)
 
-![image-20211023092520226](\typora-user-images\image-20211023092520226.png)
+![image-20211023092520226](./typora-user-images/image-20211023092520226.png)
 
 ### 	Date, Calender, LocaIDate...（日期类）
 
-1.![image-20211023103948038](\typora-user-images\image-20211023103948038.png)
+1.![image-20211023103948038](./typora-user-images/image-20211023103948038.png)
 
-![image-20211023104404223](\typora-user-images\image-20211023104404223.png)
+![image-20211023104404223](./typora-user-images/image-20211023104404223.png)
 
 Simpledate日期时间的输出格式
 
-![image-20211023104657302](\typora-user-images\image-20211023104657302.png)
+![image-20211023104657302](./typora-user-images/image-20211023104657302.png)
 
-![image-20211023104931507](\typora-user-images\image-20211023104931507.png)
+![image-20211023104931507](./typora-user-images/image-20211023104931507.png)
 
 2.（日历）（java.util.Calender）
 
-![image-20211023105255812](\typora-user-images\image-20211023105255812.png)
+![image-20211023105255812](./typora-user-images/image-20211023105255812.png)
 
-![image-20211023105350776](\typora-user-images\image-20211023105350776.png)
+![image-20211023105350776](./typora-user-images/image-20211023105350776.png)
 
-![image-20211023105629714](\typora-user-images\image-20211023105629714.png)
+![image-20211023105629714](./typora-user-images/image-20211023105629714.png)
 
-3.![image-20211023105808690](\typora-user-images\image-20211023105808690.png)
+3.![image-20211023105808690](./typora-user-images/image-20211023105808690.png)
 
-![image-20211023105939115](\typora-user-images\image-20211023105939115.png)
+![image-20211023105939115](./typora-user-images/image-20211023105939115.png)
 
-![image-20211023110010267](\typora-user-images\image-20211023110010267.png)
+![image-20211023110010267](./typora-user-images/image-20211023110010267.png)
 
 日期类：
 
 DatetimeFormatter
 
-![image-20211023110706944](\typora-user-images\image-20211023110706944.png)
+![image-20211023110706944](./typora-user-images/image-20211023110706944.png)
 
 时间戳instant
 
-![image-20211023110901327](\typora-user-images\image-20211023110901327.png)
+![image-20211023110901327](./typora-user-images/image-20211023110901327.png)
 
-![image-20211023111110165](\typora-user-images\image-20211023111110165.png)
+![image-20211023111110165](./typora-user-images/image-20211023111110165.png)
 
 ### 	System
 
-![image-20211023102305183](\typora-user-images\image-20211023102305183.png)
+![image-20211023102305183](./typora-user-images/image-20211023102305183.png)
 
-1.![image-20211023102414240](\typora-user-images\image-20211023102414240.png)
+1.![image-20211023102414240](./typora-user-images/image-20211023102414240.png)
 
-2. ![image-20211023102659599](\typora-user-images\image-20211023102659599.png)
-3. ![image-20211023102902307](\typora-user-images\image-20211023102902307.png)
+2. ![image-20211023102659599](./typora-user-images/image-20211023102659599.png)
+3. ![image-20211023102902307](./typora-user-images/image-20211023102902307.png)
 
 ### 	Arrays
 
@@ -2590,7 +2590,7 @@ public class MathMethod {
 LegacyMergeSort.userRequested
 ```
 
-![image-20211023094831259](\typora-user-images\image-20211023094831259.png)
+![image-20211023094831259](./typora-user-images/image-20211023094831259.png)
 
 自定义，定制排序
 
@@ -2632,17 +2632,17 @@ public class ArrsySo {
 }
 ```
 
-![image-20211023100904960](\typora-user-images\image-20211023100904960.png)
+![image-20211023100904960](./typora-user-images/image-20211023100904960.png)
 
 ### 	BigInteger BigDecimal
 
-![image-20211023103027060](\typora-user-images\image-20211023103027060.png)
+![image-20211023103027060](./typora-user-images/image-20211023103027060.png)
 
-1.![image-20211023103206716](\typora-user-images\image-20211023103206716.png)
+1.![image-20211023103206716](./typora-user-images/image-20211023103206716.png)
 
-![image-20211023103324245](\typora-user-images\image-20211023103324245.png)
+![image-20211023103324245](./typora-user-images/image-20211023103324245.png)
 
-2.![image-20211023103511793](\typora-user-images\image-20211023103511793.png)
+2.![image-20211023103511793](./typora-user-images/image-20211023103511793.png)
 
 除法如果是一个无限循环小数就会报错
 
@@ -2756,7 +2756,7 @@ public class Homework03 {
 }
 ```
 
-![image-20211023130955510](\typora-user-images\image-20211023130955510.png)
+![image-20211023130955510](./typora-user-images/image-20211023130955510.png)
 
 ## 集合
 
@@ -2764,13 +2764,13 @@ public class Homework03 {
 
 ### 	**集合的框架体系
 
-![image-20211023132153942](\typora-user-images\image-20211023132153942.png)
+![image-20211023132153942](./typora-user-images/image-20211023132153942.png)
 
-![image-20211023132351937](\typora-user-images\image-20211023132351937.png)
+![image-20211023132351937](./typora-user-images/image-20211023132351937.png)
 
 ### 		Collection(单列集合，接口)
 
-![image-20211025081330009](\typora-user-images\image-20211025081330009.png)
+![image-20211025081330009](./typora-user-images/image-20211025081330009.png)
 
 常用方法
 
@@ -2816,9 +2816,9 @@ public class CollectionMethod {
 }
 ```
 
-![image-20211025084321657](\typora-user-images\image-20211025084321657.png)
+![image-20211025084321657](./typora-user-images/image-20211025084321657.png)
 
-![image-20211025091157368](\typora-user-images\image-20211025091157368.png)
+![image-20211025091157368](./typora-user-images/image-20211025091157368.png)
 
 示例
 
@@ -2954,7 +2954,7 @@ class Book {
 
 ##### 							ArrayList*（线程不安全， 数组）
 
-![image-20211025103754844](\typora-user-images\image-20211025103754844.png)
+![image-20211025103754844](./typora-user-images/image-20211025103754844.png)
 
 ArrayList是线程不安全的，因为没有加synchronized修饰
 
@@ -3049,7 +3049,7 @@ class Book {
 
 分析源码：
 
-![image-20211025105247349](\typora-user-images\image-20211025105247349.png)
+![image-20211025105247349](./typora-user-images/image-20211025105247349.png)
 
 什么是 java 序列化？什么情况下需要序列化？
 	序列化：将 Java 对象转换成字节流的过程。
@@ -3068,27 +3068,27 @@ class Book {
 
 **当走无参构造器时：**
 
-![image-20211025122240227](\typora-user-images\image-20211025122240227.png)
+![image-20211025122240227](./typora-user-images/image-20211025122240227.png)
 
-![image-20211025122312239](\typora-user-images\image-20211025122312239.png)
+![image-20211025122312239](./typora-user-images/image-20211025122312239.png)
 
-![image-20211025122341634](\typora-user-images\image-20211025122341634.png)
+![image-20211025122341634](./typora-user-images/image-20211025122341634.png)
 
-![image-20211025122415013](\typora-user-images\image-20211025122415013.png)
+![image-20211025122415013](./typora-user-images/image-20211025122415013.png)
 
-![image-20211025122530510](\typora-user-images\image-20211025122530510.png)
+![image-20211025122530510](./typora-user-images/image-20211025122530510.png)
 
 **走有参构造器时**
 
-![image-20211025123334992](\typora-user-images\image-20211025123334992.png)
+![image-20211025123334992](./typora-user-images/image-20211025123334992.png)
 
-![image-20211025123508242](\typora-user-images\image-20211025123508242.png)
+![image-20211025123508242](./typora-user-images/image-20211025123508242.png)
 
 ##### 							LinkedList（线程不安全，双向链表）
 
-![image-20211025134345966](\typora-user-images\image-20211025134345966.png)
+![image-20211025134345966](./typora-user-images/image-20211025134345966.png)
 
-![image-20211025134732409](\typora-user-images\image-20211025134732409.png)
+![image-20211025134732409](./typora-user-images/image-20211025134732409.png)
 
 链表的创建：
 
@@ -3168,27 +3168,27 @@ public static void main(String[] args) {
 
 Arraylist与linkedlist的比较：
 
-![image-20211025143221878](\typora-user-images\image-20211025143221878.png)
+![image-20211025143221878](./typora-user-images/image-20211025143221878.png)
 
 ##### 							Vector*（线程安全，数组）
 
-![image-20211025124023219](\typora-user-images\image-20211025124023219.png)
+![image-20211025124023219](./typora-user-images/image-20211025124023219.png)
 
-![image-20211025124206597](\typora-user-images\image-20211025124206597.png)
+![image-20211025124206597](./typora-user-images/image-20211025124206597.png)
 
 #### 				set(接口)（无序）（不允许重复，最多有一个null）
 
-![image-20211025143608671](\typora-user-images\image-20211025143608671.png)
+![image-20211025143608671](./typora-user-images/image-20211025143608671.png)
 
-![image-20211025143643330](\typora-user-images\image-20211025143643330.png)
+![image-20211025143643330](./typora-user-images/image-20211025143643330.png)
 
 ##### 							HashSet*(底层是HashMap，单向链表)
 
-![image-20211025144456902](\typora-user-images\image-20211025144456902.png)
+![image-20211025144456902](./typora-user-images/image-20211025144456902.png)
 
-![image-20211025144750381](\typora-user-images\image-20211025144750381.png)
+![image-20211025144750381](./typora-user-images/image-20211025144750381.png)
 
-![image-20211025145443095](\typora-user-images\image-20211025145443095.png)
+![image-20211025145443095](./typora-user-images/image-20211025145443095.png)
 
 数组加链表
 
@@ -3221,9 +3221,9 @@ class Node {
 }
 ```
 
-![image-20211025151900435](\typora-user-images\image-20211025151900435.png)
+![image-20211025151900435](./typora-user-images/image-20211025151900435.png)
 
-![image-20211025161308960](\typora-user-images\image-20211025161308960.png)
+![image-20211025161308960](./typora-user-images/image-20211025161308960.png)
 
 522集追源码
 
@@ -3266,7 +3266,7 @@ class A {
 
 练习：
 
-![image-20211025165601702](\typora-user-images\image-20211025165601702.png)
+![image-20211025165601702](./typora-user-images/image-20211025165601702.png)
 
 ```java
 package com.hspedu.set_;
@@ -3332,13 +3332,13 @@ class Employee {
 
 ###### 	LinkedHashSet(底层是LinkedHashMap，双向链表，加入顺序和去除顺序是一样的，因为底层用双向链表连接)
 
-![image-20211026133455042](\typora-user-images\image-20211026133455042.png)
+![image-20211026133455042](./typora-user-images/image-20211026133455042.png)
 
-![image-20211026133647016](\typora-user-images\image-20211026133647016.png)
+![image-20211026133647016](./typora-user-images/image-20211026133647016.png)
 
-![image-20211026134404445](\typora-user-images\image-20211026134404445.png)
+![image-20211026134404445](./typora-user-images/image-20211026134404445.png)
 
-![image-20211026140953836](\typora-user-images\image-20211026140953836.png)
+![image-20211026140953836](./typora-user-images/image-20211026140953836.png)
 
 ##### 			TreeSet*（存储数据是有序的。需要传入比较器，只能传入实现Comparable接口的对象）
 
@@ -3346,27 +3346,27 @@ class Employee {
 
  存储数据是有序的，需要做一些处理（可以按字符串的大小排序，可以传入一个比较器）
 
-![image-20211027091554497](\typora-user-images\image-20211027091554497.png)
+![image-20211027091554497](./typora-user-images/image-20211027091554497.png)
 
 ### 		Map(双列集合，无序)
 
 key不能重复，value可以重复，当key重复时会把value替换
 
-![image-20211026150528364](\typora-user-images\image-20211026150528364.png)
+![image-20211026150528364](./typora-user-images/image-20211026150528364.png)
 
-![image-20211026150851573](\typora-user-images\image-20211026150851573.png)
+![image-20211026150851573](./typora-user-images/image-20211026150851573.png)
 
 Node是Hashmap的内部类，而Node有继承了Entry接口，Node实现了Map.Entry接口
 
 EntrySet也是HashMap的内部类
 
-![image-20211026151923770](\typora-user-images\image-20211026151923770.png)
+![image-20211026151923770](./typora-user-images/image-20211026151923770.png)
 
-![image-20211026154648877](\typora-user-images\image-20211026154648877.png)
+![image-20211026154648877](./typora-user-images/image-20211026154648877.png)
 
 常用方法：
 
-![image-20211026155529431](\typora-user-images\image-20211026155529431.png)
+![image-20211026155529431](./typora-user-images/image-20211026155529431.png)
 
 Map的六大遍历方法：
 
@@ -3426,71 +3426,71 @@ public class HomeWork03 {
 }
 ```
 
-![image-20211026155939741](\typora-user-images\image-20211026155939741.png)
+![image-20211026155939741](./typora-user-images/image-20211026155939741.png)
 
-![image-20211026160450769](\typora-user-images\image-20211026160450769.png)
+![image-20211026160450769](./typora-user-images/image-20211026160450769.png)
 
 entryset取数据
 
-![image-20211026160752182](\typora-user-images\image-20211026160752182.png)
+![image-20211026160752182](./typora-user-images/image-20211026160752182.png)
 
-![image-20211026161134839](\typora-user-images\image-20211026161134839.png)
+![image-20211026161134839](./typora-user-images/image-20211026161134839.png)
 
 #### 				HashMap(数组+链表+红黑树，线程不安全，无序)*
 
-![image-20211026163419126](\typora-user-images\image-20211026163419126.png)
+![image-20211026163419126](./typora-user-images/image-20211026163419126.png)
 
 因为HashMap没有synchronize，所以线程不安全
 
-![image-20211026170121731](\typora-user-images\image-20211026170121731.png)
+![image-20211026170121731](./typora-user-images/image-20211026170121731.png)
 
 ##### 			LinkedHashMap
 
 #### 				Hashtable（线程安全，k-v不能为null）
 
-![image-20211027083109655](\typora-user-images\image-20211027083109655.png)
+![image-20211027083109655](./typora-user-images/image-20211027083109655.png)
 
-![image-20211027084618686](\typora-user-images\image-20211027084618686.png)
+![image-20211027084618686](./typora-user-images/image-20211027084618686.png)
 
 Hashtable与HashMap的对比
 
-![image-20211027084717104](\typora-user-images\image-20211027084717104.png)
+![image-20211027084717104](./typora-user-images/image-20211027084717104.png)
 
 ##### 			properties(继承了Hashtable)
 
-![image-20211027085050195](\typora-user-images\image-20211027085050195.png)
+![image-20211027085050195](./typora-user-images/image-20211027085050195.png)
 
-![image-20211027085625833](\typora-user-images\image-20211027085625833.png)
+![image-20211027085625833](./typora-user-images/image-20211027085625833.png)
 
 集合的使用技巧
 
-![image-20211027090030253](\typora-user-images\image-20211027090030253.png)
+![image-20211027090030253](./typora-user-images/image-20211027090030253.png)
 
 #### 				TreeMap（有序，需要传入比较器，他的key只能传入实现Comparable接口的对象）
 
-![image-20211027093651725](\typora-user-images\image-20211027093651725.png)
+![image-20211027093651725](./typora-user-images/image-20211027093651725.png)
 
-![image-20211027094355423](\typora-user-images\image-20211027094355423.png)
+![image-20211027094355423](./typora-user-images/image-20211027094355423.png)
 
 ### 		Collections
 
 对list，map，set进行操作
 
-![image-20211027095348890](\typora-user-images\image-20211027095348890.png)
+![image-20211027095348890](./typora-user-images/image-20211027095348890.png)
 
-![image-20211027095432573](\typora-user-images\image-20211027095432573.png)
+![image-20211027095432573](./typora-user-images/image-20211027095432573.png)
 
-![image-20211027095508231](\typora-user-images\image-20211027095508231.png)
+![image-20211027095508231](./typora-user-images/image-20211027095508231.png)
 
-![image-20211027095620747](\typora-user-images\image-20211027095620747.png)
+![image-20211027095620747](./typora-user-images/image-20211027095620747.png)
 
-![image-20211027095819487](\typora-user-images\image-20211027095819487.png)
+![image-20211027095819487](./typora-user-images/image-20211027095819487.png)
 
-![image-20211027095955758](\typora-user-images\image-20211027095955758.png)
+![image-20211027095955758](./typora-user-images/image-20211027095955758.png)
 
 ### 作业
 
-![image-20211027101056991](\typora-user-images\image-20211027101056991.png)
+![image-20211027101056991](./typora-user-images/image-20211027101056991.png)
 
 ```java
 package com.hspedu.Homework;
@@ -3555,11 +3555,11 @@ class New {
 }
 ```
 
-![image-20211027110359861](\typora-user-images\image-20211027110359861.png)
+![image-20211027110359861](./typora-user-images/image-20211027110359861.png)
 
-![image-20211027110914616](\typora-user-images\image-20211027110914616.png)
+![image-20211027110914616](./typora-user-images/image-20211027110914616.png)
 
-![image-20211027111116883](\typora-user-images\image-20211027111116883.png)
+![image-20211027111116883](./typora-user-images/image-20211027111116883.png)
 
 ## 	泛型
 
@@ -3569,13 +3569,13 @@ class New {
 
 传统方法的不足
 
-![image-20211027112336881](\typora-user-images\image-20211027112336881.png)
+![image-20211027112336881](./typora-user-images/image-20211027112336881.png)
 
-![image-20211027112744097](\typora-user-images\image-20211027112744097.png)
+![image-20211027112744097](./typora-user-images/image-20211027112744097.png)
 
-![image-20211027125040894](\typora-user-images\image-20211027125040894.png)
+![image-20211027125040894](./typora-user-images/image-20211027125040894.png)
 
-![image-20211027125534219](\typora-user-images\image-20211027125534219.png)
+![image-20211027125534219](./typora-user-images/image-20211027125534219.png)
 
 ```java
 package com.hspedu.generic;
@@ -3596,67 +3596,67 @@ class Person<E> {
 
 语法：
 
-![image-20211027131432493](\typora-user-images\image-20211027131432493.png)
+![image-20211027131432493](./typora-user-images/image-20211027131432493.png)
 
-![image-20211027133117057](\typora-user-images\image-20211027133117057.png)
+![image-20211027133117057](./typora-user-images/image-20211027133117057.png)
 
 ### 自定义泛型
 
 #### 		泛型类
 
-![image-20211027143238143](\typora-user-images\image-20211027143238143.png)
+![image-20211027143238143](./typora-user-images/image-20211027143238143.png)
 
 2.泛型不能实例化，因为数组在new时，不能确定T的类型，就无法在内存开辟空间。可以定义，
 
-![image-20211027144423626](\typora-user-images\image-20211027144423626.png)
+![image-20211027144423626](./typora-user-images/image-20211027144423626.png)
 
 #### 		泛型接口
 
-![image-20211027145100543](\typora-user-images\image-20211027145100543.png)
+![image-20211027145100543](./typora-user-images/image-20211027145100543.png)
 
-![image-20211027151002907](\typora-user-images\image-20211027151002907.png)
+![image-20211027151002907](./typora-user-images/image-20211027151002907.png)
 
-![image-20211027151244164](\typora-user-images\image-20211027151244164.png)
+![image-20211027151244164](./typora-user-images/image-20211027151244164.png)
 
 #### 		泛型的方法
 
-![image-20211027151828338](\typora-user-images\image-20211027151828338.png)‘![image-20211027152108962](\typora-user-images\image-20211027152108962.png)
+![image-20211027151828338](./typora-user-images/image-20211027151828338.png)‘![image-20211027152108962](./typora-user-images/image-20211027152108962.png)
 
 不用特意传递数据类型，
 
-![image-20211027152351262](\typora-user-images\image-20211027152351262.png)
+![image-20211027152351262](./typora-user-images/image-20211027152351262.png)
 
 使用时直接判断fly传递的数据类型
 
 ### 泛型的继承和通配符
 
-![image-20211027154102173](\typora-user-images\image-20211027154102173.png)
+![image-20211027154102173](./typora-user-images/image-20211027154102173.png)
 
-这里错误！！![image-20211027154033820](\typora-user-images\image-20211027154033820.png)
+这里错误！！![image-20211027154033820](./typora-user-images/image-20211027154033820.png)
 
 2.
 
-![image-20211030164526259](\typora-user-images\image-20211030164526259.png)
+![image-20211030164526259](./typora-user-images/image-20211030164526259.png)
 
-![image-20211027155052048](\typora-user-images\image-20211027155052048.png)
+![image-20211027155052048](./typora-user-images/image-20211027155052048.png)
 
 3.
 
-![image-20211027155001037](\typora-user-images\image-20211027155001037.png)
+![image-20211027155001037](./typora-user-images/image-20211027155001037.png)
 
 4.可以是任意父类。
 
-![image-20211027155226066](\typora-user-images\image-20211027155226066.png)
+![image-20211027155226066](./typora-user-images/image-20211027155226066.png)
 
 ### JUnit
 
-![image-20211027155535533](\typora-user-images\image-20211027155535533.png)
+![image-20211027155535533](./typora-user-images/image-20211027155535533.png)
 
-![image-20211027160302200](\typora-user-images\image-20211027160302200.png)
+![image-20211027160302200](./typora-user-images/image-20211027160302200.png)
 
 作业：
 
-![image-20211027182325792](\typora-user-images\image-20211027182325792.png)
+![image-20211027182325792](./typora-user-images/image-20211027182325792.png)
 
 ```java
 package com.hspedu.Homework;
@@ -3766,23 +3766,23 @@ class User {
 
 ### 	线程的介绍
 
-![image-20211031110315610](\typora-user-images\image-20211031110315610.png)
+![image-20211031110315610](./typora-user-images/image-20211031110315610.png)
 
-![image-20211031110527535](\typora-user-images\image-20211031110527535.png)
+![image-20211031110527535](./typora-user-images/image-20211031110527535.png)
 
-![image-20211031110715686](\typora-user-images\image-20211031110715686.png)
+![image-20211031110715686](./typora-user-images/image-20211031110715686.png)
 
-![image-20211031110800468](\typora-user-images\image-20211031110800468.png)
+![image-20211031110800468](./typora-user-images/image-20211031110800468.png)
 
 ### 	线程的使用*
 
 **Thread创建接口**
 
-![image-20211031112715769](\typora-user-images\image-20211031112715769.png)
+![image-20211031112715769](./typora-user-images/image-20211031112715769.png)
 
-![image-20211031121028141](\typora-user-images\image-20211031121028141.png)
+![image-20211031121028141](./typora-user-images/image-20211031121028141.png)
 
-![image-20211031121154663](\typora-user-images\image-20211031121154663.png)
+![image-20211031121154663](./typora-user-images/image-20211031121154663.png)
 
 ```java
 package com.hspedu;
@@ -3816,7 +3816,7 @@ class Cat extends Thread {
 }
 ```
 
-![image-20211031115515926](\typora-user-images\image-20211031115515926.png)
+![image-20211031115515926](./typora-user-images/image-20211031115515926.png)
 
 在Terminal中输入JConsole查看线程
 
@@ -3824,7 +3824,7 @@ class Cat extends Thread {
 
 **Runnable**创建一个线程
 
-![image-20211031122340590](\typora-user-images\image-20211031122340590.png)
+![image-20211031122340590](./typora-user-images/image-20211031122340590.png)
 
 ```java
 package com.hspedu;
@@ -3884,7 +3884,7 @@ class Proxy implements Runnable {//把Proxy看成Thread
 }
 ```
 
-![image-20211031131955385](\typora-user-images\image-20211031131955385.png)
+![image-20211031131955385](./typora-user-images/image-20211031131955385.png)
 
 **多线程的问题**
 
@@ -3930,7 +3930,7 @@ class SellTicket01 extends Thread {
 
 **通知线程退出**
 
-![image-20211031134405277](\typora-user-images\image-20211031134405277.png)
+![image-20211031134405277](./typora-user-images/image-20211031134405277.png)
 
 ```java
 package com.hspedu.ticket;
@@ -3976,7 +3976,7 @@ class SellTicket01 extends Thread {
 
 ### 	线成的方法
 
-![image-20211031135735885](\typora-user-images\image-20211031135735885.png)
+![image-20211031135735885](./typora-user-images/image-20211031135735885.png)
 
 ```java
 //修改线程的优先级
@@ -3985,15 +3985,15 @@ thread.setPriority(Thread.MIN_PRIORITY);
 
 interrupt(会中断休眠)只是改变线程中断的状态，InterruptedException。当休眠被中断时就会抛出一个中段异常
 
-![image-20211031135922969](\typora-user-images\image-20211031135922969.png)
+![image-20211031135922969](./typora-user-images/image-20211031135922969.png)
 
-![image-20211031141201470](\typora-user-images\image-20211031141201470.png)
+![image-20211031141201470](./typora-user-images/image-20211031141201470.png)
 
-![image-20211031141138680](\typora-user-images\image-20211031141138680.png)
+![image-20211031141138680](./typora-user-images/image-20211031141138680.png)
 
 interrupt会中断休眠
 
-![image-20211031143107861](\typora-user-images\image-20211031143107861.png)
+![image-20211031143107861](./typora-user-images/image-20211031143107861.png)
 
 线程的插队与礼让，默认都会停止礼让线程，进而执行其他线程
 
@@ -4037,7 +4037,7 @@ class SellTicket01 extends Thread {
 
 **用户线程与守护线程**
 
-![image-20211031152547007](\typora-user-images\image-20211031152547007.png)
+![image-20211031152547007](./typora-user-images/image-20211031152547007.png)
 
 ```java
 package com.hspedu.ticket;
@@ -4091,7 +4091,7 @@ class SellTicket01 extends Thread {
 
   一个线程可以在一个给定的时间点上只有一个状态。这些状态是不反映任何操作系统线程状态的虚拟机状态。
 
-![image-20211031154347067](\typora-user-images\image-20211031154347067.png)
+![image-20211031154347067](./typora-user-images/image-20211031154347067.png)
 
 ```java
 package com.hspedu.ticket;
@@ -4130,21 +4130,21 @@ class T extends Thread {
 
 获取对象锁才能操作，锁住的内容
 
-![image-20211031160212463](\typora-user-images\image-20211031160212463.png)
+![image-20211031160212463](./typora-user-images/image-20211031160212463.png)
 
-![image-20211031160643734](\typora-user-images\image-20211031160643734.png)
+![image-20211031160643734](./typora-user-images/image-20211031160643734.png)
 
 ### 	互斥锁*
 
-![image-20211031162449521](\typora-user-images\image-20211031162449521.png)
+![image-20211031162449521](./typora-user-images/image-20211031162449521.png)
 
-![image-20211031164933783](\typora-user-images\image-20211031164933783.png)
+![image-20211031164933783](./typora-user-images/image-20211031164933783.png)
 
-![image-20211031165054811](\typora-user-images\image-20211031165054811.png)
+![image-20211031165054811](./typora-user-images/image-20211031165054811.png)
 
-![image-20211031164903065](\typora-user-images\image-20211031164903065.png)
+![image-20211031164903065](./typora-user-images/image-20211031164903065.png)
 
-![image-20211031165139785](\typora-user-images\image-20211031165139785.png)
+![image-20211031165139785](./typora-user-images/image-20211031165139785.png)
 
 **当继承Tread时创建了多个对象，而锁对象只能要求一个，所以根本锁不住。**
 
@@ -4204,13 +4204,13 @@ class SellTicket01 implements Runnable{
 
 ### 	死锁
 
-![image-20211031183249354](\typora-user-images\image-20211031183249354.png)
+![image-20211031183249354](./typora-user-images/image-20211031183249354.png)
 
 **释放锁**
 
-![image-20211101082744443](\typora-user-images\image-20211101082744443.png)
+![image-20211101082744443](./typora-user-images/image-20211101082744443.png)
 
-![image-20211101083734348](\typora-user-images\image-20211101083734348.png)
+![image-20211101083734348](./typora-user-images/image-20211101083734348.png)
 
 
 
@@ -4220,11 +4220,11 @@ class SellTicket01 implements Runnable{
 
 ### 	文件
 
-![](\typora-user-images\image-20211102170911923.png)
+![](./typora-user-images/image-20211102170911923.png)
 
 创建一个文件
 
-![](\typora-user-images\image-20211102171104084.png)
+![](./typora-user-images/image-20211102171104084.png)
 
 创建文件的三种方式
 
@@ -4245,13 +4245,13 @@ class SellTicket01 implements Runnable{
         file.createNewFile();//执行此语句，才会真正的创建对象
 ```
 
-![image-20211102172844745](\typora-user-images\image-20211102172844745.png)
+![image-20211102172844745](./typora-user-images/image-20211102172844745.png)
 
 获取文件内容
 
 ```java
 //1
-File file = new File("e\\news1.txt");
+File file = new File("e.\\news1.txt");
 System.out.println("文件名"+file.getName());
 //2
 System.out.println("绝对路径"+file.getAbsolutePath());
@@ -4299,39 +4299,39 @@ System.out.println("是不是一个目录"+file.isDirectory());
 
 ### 	io流原理及流的分类
 
-![image-20211103094538577](\typora-user-images\image-20211103094538577.png)
+![image-20211103094538577](./typora-user-images/image-20211103094538577.png)
 
-![image-20211102181751753](\typora-user-images\image-20211102181751753.png)
+![image-20211102181751753](./typora-user-images/image-20211102181751753.png)
 
-![image-20211102181803815](\typora-user-images\image-20211102181803815.png)
+![image-20211102181803815](./typora-user-images/image-20211102181803815.png)
 
-![image-20211102181907309](\typora-user-images\image-20211102181907309.png)
+![image-20211102181907309](./typora-user-images/image-20211102181907309.png)
 
 InputStream与OutputStream都是一个抽象类，Reader与Writer也是抽象类
 
-![image-20211102182625505](\typora-user-images\image-20211102182625505.png)
+![image-20211102182625505](./typora-user-images/image-20211102182625505.png)
 
 ### 	节点流和处理流
 
-![image-20211103063915360](\typora-user-images\image-20211103063915360.png)
+![image-20211103063915360](./typora-user-images/image-20211103063915360.png)
 
-![image-20211103070131447](\typora-user-images\image-20211103070131447.png)
+![image-20211103070131447](./typora-user-images/image-20211103070131447.png)
 
 处理流是指能够包装节点流，进而更加方便
 
 字节流：
 
-![image-20211103063958791](\typora-user-images\image-20211103063958791.png)
+![image-20211103063958791](./typora-user-images/image-20211103063958791.png)
 
 处理流：
 
 1.处理流是对字节流的封装
 
-![image-20211103065923900](\typora-user-images\image-20211103065923900.png)
+![image-20211103065923900](./typora-user-images/image-20211103065923900.png)
 
 处理流之字符流
 
-![image-20211103085618302](\typora-user-images\image-20211103085618302.png)
+![image-20211103085618302](./typora-user-images/image-20211103085618302.png)
 
 ```java
 package com.hspedu.file;
@@ -4355,7 +4355,7 @@ public class BufferedReader_ {
 }
 ```
 
-![image-20211103090947626](\typora-user-images\image-20211103090947626.png)
+![image-20211103090947626](./typora-user-images/image-20211103090947626.png)
 
 ```java
 package com.hspedu.file;
@@ -4411,11 +4411,11 @@ public class BufferedCopy_ {
 
 2.处理流之字节流
 
-![image-20211103094319639](\typora-user-images\image-20211103094319639.png)
+![image-20211103094319639](./typora-user-images/image-20211103094319639.png)
 
-![image-20211103094331905](\typora-user-images\image-20211103094331905.png)
+![image-20211103094331905](./typora-user-images/image-20211103094331905.png)
 
-![image-20211103094732598](\typora-user-images\image-20211103094732598.png)
+![image-20211103094732598](./typora-user-images/image-20211103094732598.png)
 
 ```java
 package com.hspedu.file;
@@ -4451,7 +4451,7 @@ public class BufferedCopy02 {
 
 ### 对象处理流
 
-![image-20211103095922886](\typora-user-images\image-20211103095922886.png)
+![image-20211103095922886](./typora-user-images/image-20211103095922886.png)
 
 保存文件的数据类型，就称为序列化，把文件中的值和数据类型回复到文件中就称为反序列化
 
@@ -4459,7 +4459,7 @@ public class BufferedCopy02 {
 
 **序列化**
 
-![image-20211103101203122](\typora-user-images\image-20211103101203122.png)
+![image-20211103101203122](./typora-user-images/image-20211103101203122.png)
 
 ```java
 package com.hspedu.file;
@@ -4523,9 +4523,9 @@ public class ObjectInputStream_ {
 
 注意事项
 
-![image-20211103104442582](\typora-user-images\image-20211103104442582.png)
+![image-20211103104442582](./typora-user-images/image-20211103104442582.png)
 
-![image-20211103104631659](\typora-user-images\image-20211103104631659.png)
+![image-20211103104631659](./typora-user-images/image-20211103104631659.png)
 
 3.当加入一个新的属性时，序列化时他会认为是一个版本的修改，而不是一个新的类
 
@@ -4535,9 +4535,9 @@ public class ObjectInputStream_ {
 
 ### 标准输入输出流
 
-![image-20211103105829392](\typora-user-images\image-20211103105829392.png)
+![image-20211103105829392](./typora-user-images/image-20211103105829392.png)
 
-![image-20211103110252089](\typora-user-images\image-20211103110252089.png)
+![image-20211103110252089](./typora-user-images/image-20211103110252089.png)
 
 ```java
 System.out.println();
@@ -4546,31 +4546,31 @@ new Scanner(System.in);
 
 ### 转换流(把字节流转换为字符流，字节流是可以指定编码方式的)
 
-![image-20211103112006408](\typora-user-images\image-20211103112006408.png)
+![image-20211103112006408](./typora-user-images/image-20211103112006408.png)
 
-![image-20211103112204603](\typora-user-images\image-20211103112204603.png)
+![image-20211103112204603](./typora-user-images/image-20211103112204603.png)
 
-![image-20211103112026541](\typora-user-images\image-20211103112026541.png)
+![image-20211103112026541](./typora-user-images/image-20211103112026541.png)
 
 输入转换流演示
 
-![image-20211103123456667](\typora-user-images\image-20211103123456667.png)
+![image-20211103123456667](./typora-user-images/image-20211103123456667.png)
 
 输出转换流演示
 
-![image-20211103124027257](\typora-user-images\image-20211103124027257.png)
+![image-20211103124027257](./typora-user-images/image-20211103124027257.png)
 
 ### 打印流(只有输出没有输入)
 
-![image-20211103124219333](\typora-user-images\image-20211103124219333.png)
+![image-20211103124219333](./typora-user-images/image-20211103124219333.png)
 
-![image-20211103124913459](\typora-user-images\image-20211103124913459.png)
+![image-20211103124913459](./typora-user-images/image-20211103124913459.png)
 
-![image-20211103125431396](\typora-user-images\image-20211103125431396.png)
+![image-20211103125431396](./typora-user-images/image-20211103125431396.png)
 
 //我们可以修改输出流的位置
 
-![image-20211103125723894](\typora-user-images\image-20211103125723894.png)
+![image-20211103125723894](./typora-user-images/image-20211103125723894.png)
 
 ```java
 package com.hspedu.file;
@@ -4600,9 +4600,9 @@ public class PrintWriter_ {
 
 汉字不能用字节，汉字占三个字节，而字节流只能一个字节的读取
 
-![image-20211102183040737](\typora-user-images\image-20211102183040737.png)
+![image-20211102183040737](./typora-user-images/image-20211102183040737.png)
 
-![image-20211102182931084](\typora-user-images\image-20211102182931084.png)
+![image-20211102182931084](./typora-user-images/image-20211102182931084.png)
 
 FilterInputStream(字节读取流)
 
@@ -4653,11 +4653,11 @@ public class FilterInputStream_ {
 
 一个字符按三个字节读取
 
-![image-20211210135930759](\typora-user-images\image-20211210135930759.png)
+![image-20211210135930759](./typora-user-images/image-20211210135930759.png)
 
-![image-20211102202157241](\typora-user-images\image-20211102202157241.png)
+![image-20211102202157241](./typora-user-images/image-20211102202157241.png)
 
-![image-20211102203127395](\typora-user-images\image-20211102203127395.png)
+![image-20211102203127395](./typora-user-images/image-20211102203127395.png)
 
 
 
@@ -4667,11 +4667,11 @@ public class FilterInputStream_ {
 
 **字节流**
 
-![image-20211102192105552](\typora-user-images\image-20211102192105552.png)
+![image-20211102192105552](./typora-user-images/image-20211102192105552.png)
 
 FileOutputStream(字节输出流)
 
-![image-20211102192123074](\typora-user-images\image-20211102192123074.png)
+![image-20211102192123074](./typora-user-images/image-20211102192123074.png)
 
 ```java
 package com.hspedu.file;
@@ -4709,9 +4709,9 @@ public class FileOutputSteam01 {
 
 **字符流**
 
-![image-20211102202752951](\typora-user-images\image-20211102202752951.png)
+![image-20211102202752951](./typora-user-images/image-20211102202752951.png)
 
-![image-20211103061529754](\typora-user-images\image-20211103061529754.png)
+![image-20211103061529754](./typora-user-images/image-20211103061529754.png)
 
 ```java
 package com.hspedu.file;
@@ -4780,11 +4780,11 @@ public class FileCopy {
 
 主要功能是输入流，把配置文件的数据加载到内存中
 
-![image-20211104113047556](\typora-user-images\image-20211104113047556.png)
+![image-20211104113047556](./typora-user-images/image-20211104113047556.png)
 
-![image-20211104113431313](\typora-user-images\image-20211104113431313.png)
+![image-20211104113431313](./typora-user-images/image-20211104113431313.png)
 
-![image-20211104114030678](\typora-user-images\image-20211104114030678.png)
+![image-20211104114030678](./typora-user-images/image-20211104114030678.png)
 
 ```java
 package com.hspedu.file;
@@ -4821,7 +4821,7 @@ public class Properties01 {
 }
 ```
 
-![image-20211104131509619](\typora-user-images\image-20211104131509619.png)
+![image-20211104131509619](./typora-user-images/image-20211104131509619.png)
 
 ```java
 package com.hspedu.file;
@@ -4858,7 +4858,7 @@ public class Homework01 {
 }
 ```
 
-![image-20211104132559396](\typora-user-images\image-20211104132559396.png)
+![image-20211104132559396](./typora-user-images/image-20211104132559396.png)
 
 ```java
 package com.hspedu.file;
@@ -4892,9 +4892,9 @@ public class Homework02 {
 
 ### java绘图坐标体系
 
-![image-20211030170533429](\typora-user-images\image-20211030170533429.png)
+![image-20211030170533429](./typora-user-images/image-20211030170533429.png)
 
-![image-20211030170733323](\typora-user-images\image-20211030170733323.png)
+![image-20211030170733323](./typora-user-images/image-20211030170733323.png)
 
 ### java绘图技术
 
@@ -4952,7 +4952,7 @@ class MyPanel extends JPanel {
 }
 ```
 
-![image-20211030174207750](\typora-user-images\image-20211030174207750.png)
+![image-20211030174207750](./typora-user-images/image-20211030174207750.png)
 
 ### java事件处理机制
 
@@ -5039,27 +5039,27 @@ class MyPanel extends JPanel implements KeyListener {
 
 ### 网络基础
 
-![image-20211105163000268](\typora-user-images\image-20211105163000268.png)
+![image-20211105163000268](./typora-user-images/image-20211105163000268.png)
 
-![image-20211105191713730](\typora-user-images\image-20211105191713730.png)
+![image-20211105191713730](./typora-user-images/image-20211105191713730.png)
 
-![image-20211105191935202](\typora-user-images\image-20211105191935202.png)
+![image-20211105191935202](./typora-user-images/image-20211105191935202.png)
 
 域名和端口号
 
-![image-20211105192823725](\typora-user-images\image-20211105192823725.png)
+![image-20211105192823725](./typora-user-images/image-20211105192823725.png)
 
-![image-20211105193905121](\typora-user-images\image-20211105193905121.png)
+![image-20211105193905121](./typora-user-images/image-20211105193905121.png)
 
-![image-20211105194323785](\typora-user-images\image-20211105194323785.png)
+![image-20211105194323785](./typora-user-images/image-20211105194323785.png)
 
 TCP与UDP协议
 
-![image-20211108091642023](\typora-user-images\image-20211108091642023.png)
+![image-20211108091642023](./typora-user-images/image-20211108091642023.png)
 
 ### InetAddress
 
-![image-20211108092025523](\typora-user-images\image-20211108092025523.png)
+![image-20211108092025523](./typora-user-images/image-20211108092025523.png)
 
 InetAddress对象
 
@@ -5096,19 +5096,19 @@ public class API_ {
 
 ### Socket
 
-![image-20211108094413606](\typora-user-images\image-20211108094413606.png)
+![image-20211108094413606](./typora-user-images/image-20211108094413606.png)
 
-![image-20211108094351457](\typora-user-images\image-20211108094351457.png)
+![image-20211108094351457](./typora-user-images/image-20211108094351457.png)
 
-![image-20211108094656560](\typora-user-images\image-20211108094656560.png)
+![image-20211108094656560](./typora-user-images/image-20211108094656560.png)
 
 ### TCP编程*
 
 TCP字节流编程
 
-![image-20211108101232332](\typora-user-images\image-20211108101232332.png)
+![image-20211108101232332](./typora-user-images/image-20211108101232332.png)
 
-![image-20211108104516536](\typora-user-images\image-20211108104516536.png)
+![image-20211108104516536](./typora-user-images/image-20211108104516536.png)
 
 字节流编程
 
@@ -5223,9 +5223,9 @@ bufferedWriter.flush();//如果使用字符流，需要手动刷新，否则数�
 bufferedWriter.newLine();//插入一个换行符，便是写入内容结束，要求对方使用readLine()读数据
 ```
 
-![image-20211109153403644](\typora-user-images\image-20211109153403644.png)
+![image-20211109153403644](./typora-user-images/image-20211109153403644.png)
 
-![image-20211109161215976](\typora-user-images\image-20211109161215976.png)
+![image-20211109161215976](./typora-user-images/image-20211109161215976.png)
 
 服务端
 
@@ -5321,9 +5321,9 @@ public class SocketTCP01Client {
 
 案例
 
-![image-20211109161137459](\typora-user-images\image-20211109161137459.png)
+![image-20211109161137459](./typora-user-images/image-20211109161137459.png)
 
-![image-20211109163609294](\typora-user-images\image-20211109163609294.png)
+![image-20211109163609294](./typora-user-images/image-20211109163609294.png)
 
 ```java
 package com.hspedu.api_;
@@ -5406,21 +5406,21 @@ public class TCPFileUploadClient {
 }
 ```
 
-![image-20211109191803644](\typora-user-images\image-20211109191803644.png)
+![image-20211109191803644](./typora-user-images/image-20211109191803644.png)
 
 netstat -anb | more查看哪一个程序运行的ip地址
 
-![image-20211109200440733](\typora-user-images\image-20211109200440733.png)
+![image-20211109200440733](./typora-user-images/image-20211109200440733.png)
 
 ### UDP编程
 
-![image-20211109201918640](\typora-user-images\image-20211109201918640.png)
+![image-20211109201918640](./typora-user-images/image-20211109201918640.png)
 
-![image-20211109202118433](\typora-user-images\image-20211109202118433.png)
+![image-20211109202118433](./typora-user-images/image-20211109202118433.png)
 
 案例
 
-![image-20211109202223289](\typora-user-images\image-20211109202223289.png)
+![image-20211109202223289](./typora-user-images/image-20211109202223289.png)
 
 接收端
 
@@ -5479,7 +5479,7 @@ public class UDPSenderB {
 }
 ```
 
-![image-20211109211545498](\typora-user-images\image-20211109211545498.png)
+![image-20211109211545498](./typora-user-images/image-20211109211545498.png)
 
 ## qq项目
 
@@ -5487,11 +5487,11 @@ public class UDPSenderB {
 
 项目开发流程
 
-![image-20211110071756512](\typora-user-images\image-20211110071756512.png)
+![image-20211110071756512](./typora-user-images/image-20211110071756512.png)
 
 思路分析
 
-![image-20211110075137096](\typora-user-images\image-20211110075137096.png)
+![image-20211110075137096](./typora-user-images/image-20211110075137096.png)
 
 项目路径G:\java\ideaJavaProject\qqclient
 
@@ -5503,13 +5503,13 @@ public class UDPSenderB {
 
 ### 	反射机制*
 
-​		快速入们![image-20211117105939204](\typora-user-images\image-20211117105939204.png)
+​		快速入们![image-20211117105939204](./typora-user-images/image-20211117105939204.png)
 
-![image-20211117110447603](\typora-user-images\image-20211117110447603.png)
+![image-20211117110447603](./typora-user-images/image-20211117110447603.png)
 
-![image-20211117110514599](\typora-user-images\image-20211117110514599.png)
+![image-20211117110514599](./typora-user-images/image-20211117110514599.png)
 
-![image-20211117111105449](\typora-user-images\image-20211117111105449.png)
+![image-20211117111105449](./typora-user-images/image-20211117111105449.png)
 
 可以通过配置文件来修改调用的哪个方法，不需要修改源文件
 
@@ -5517,33 +5517,33 @@ public class UDPSenderB {
 
 反射机制
 
-![image-20211117112143060](\typora-user-images\image-20211117112143060.png)
+![image-20211117112143060](./typora-user-images/image-20211117112143060.png)
 
-![image-20211117132632991](\typora-user-images\image-20211117132632991.png)
+![image-20211117132632991](./typora-user-images/image-20211117132632991.png)
 
 反射相关类
 
-![image-20211119100058024](\typora-user-images\image-20211119100058024.png)
+![image-20211119100058024](./typora-user-images/image-20211119100058024.png)
 
-![image-20211121081155566](\typora-user-images\image-20211121081155566.png)
+![image-20211121081155566](./typora-user-images/image-20211121081155566.png)
 
 当关闭setAccessible时就会提高效率
 
-![image-20211121081449921](\typora-user-images\image-20211121081449921.png)
+![image-20211121081449921](./typora-user-images/image-20211121081449921.png)
 
 ### 	Class类*
 
-![image-20211121081902775](\typora-user-images\image-20211121081902775.png)
+![image-20211121081902775](./typora-user-images/image-20211121081902775.png)
 
-![image-20211121081928622](\typora-user-images\image-20211121081928622.png)
+![image-20211121081928622](./typora-user-images/image-20211121081928622.png)
 
-![image-20211121082933495](\typora-user-images\image-20211121082933495.png)
+![image-20211121082933495](./typora-user-images/image-20211121082933495.png)
 
 每一个类都会有一个对应的Class对象
 
-![image-20211121084532981](\typora-user-images\image-20211121084532981.png)
+![image-20211121084532981](./typora-user-images/image-20211121084532981.png)
 
-![image-20211121084508733](\typora-user-images\image-20211121084508733.png)
+![image-20211121084508733](./typora-user-images/image-20211121084508733.png)
 
 **class常用类**
 
@@ -5585,13 +5585,13 @@ public class Class02 {
 }
 ```
 
-![image-20211121091803988](\typora-user-images\image-20211121091803988.png)
+![image-20211121091803988](./typora-user-images/image-20211121091803988.png)
 
-![image-20211121092215506](\typora-user-images\image-20211121092215506.png)
+![image-20211121092215506](./typora-user-images/image-20211121092215506.png)
 
-![image-20211121094622579](\typora-user-images\image-20211121094622579.png)
+![image-20211121094622579](./typora-user-images/image-20211121094622579.png)
 
-![image-20211121094639173](\typora-user-images\image-20211121094639173.png)
+![image-20211121094639173](./typora-user-images/image-20211121094639173.png)
 
 ```java
 package com.kjqedu.class_;
@@ -5628,13 +5628,13 @@ public class GetClass_ {
 }
 ```
 
-![image-20211121100116699](\typora-user-images\image-20211121100116699.png)
+![image-20211121100116699](./typora-user-images/image-20211121100116699.png)
 
-![image-20211121100341487](\typora-user-images\image-20211121100341487.png)
+![image-20211121100341487](./typora-user-images/image-20211121100341487.png)
 
 ### 	类加载*
 
-![image-20211121102540231](\typora-user-images\image-20211121102540231.png)
+![image-20211121102540231](./typora-user-images/image-20211121102540231.png)
 
 ```java
 Dog dog = new Dog();//静态加载，不管有没有走到这里。都会先加载Dog类
@@ -5644,37 +5644,37 @@ Method m = cls.getMethod("hi");
 m.invoke(o);
 ```
 
-![image-20211121103138494](\typora-user-images\image-20211121103138494.png)
+![image-20211121103138494](./typora-user-images/image-20211121103138494.png)
 
-![image-20211121103511897](\typora-user-images\image-20211121103511897.png)
+![image-20211121103511897](./typora-user-images/image-20211121103511897.png)
 
-1![image-20211121104538347](\typora-user-images\image-20211121104538347.png)
+1![image-20211121104538347](./typora-user-images/image-20211121104538347.png)
 
 2.1验证主要是对文件进行安全的校验安全，比如文件格式，元数据验证是否正确，字节码是否正确
 
-![image-20211121104928229](\typora-user-images\image-20211121104928229.png)
+![image-20211121104928229](./typora-user-images/image-20211121104928229.png)
 
 2.2准备是对静态变量分配内存，针对静态变量进行默认初始化
 
-![image-20211121105045702](\typora-user-images\image-20211121105045702.png)
+![image-20211121105045702](./typora-user-images/image-20211121105045702.png)
 
-![image-20211121105608436](\typora-user-images\image-20211121105608436.png)
+![image-20211121105608436](./typora-user-images/image-20211121105608436.png)
 
 2.3解析，虚拟机会把常量池中的符号引用替换为直接引用
 
-![image-20211121110200653](\typora-user-images\image-20211121110200653.png)
+![image-20211121110200653](./typora-user-images/image-20211121110200653.png)
 
 引用是一个变量指向一个地址
 
-3![image-20211121112120391](\typora-user-images\image-20211121112120391.png)
+3![image-20211121112120391](./typora-user-images/image-20211121112120391.png)
 
-![image-20211121112315054](\typora-user-images\image-20211121112315054.png)
+![image-20211121112315054](./typora-user-images/image-20211121112315054.png)
 
 ### 	反射获取类的结构信息***
 
 #### class
 
-![image-20211121112547377](\typora-user-images\image-20211121112547377.png)
+![image-20211121112547377](./typora-user-images/image-20211121112547377.png)
 
 修正7.包含本类没有父类
 
@@ -5785,7 +5785,7 @@ class Person extends A implements IA, IB{
 
 #### 		Field
 
-![image-20211121140715906](\typora-user-images\image-20211121140715906.png)
+![image-20211121140715906](./typora-user-images/image-20211121140715906.png)
 
 ```java
 @Test
@@ -5800,7 +5800,7 @@ public void api_02() throws ClassNotFoundException {
 
 #### Method
 
-![image-20211121143109605](\typora-user-images\image-20211121143109605.png)
+![image-20211121143109605](./typora-user-images/image-20211121143109605.png)
 
 ```java
 @Test
@@ -5820,7 +5820,7 @@ public void api_02() throws ClassNotFoundException {
 
 #### 		Constructor
 
-![image-20211121143809552](\typora-user-images\image-20211121143809552.png)
+![image-20211121143809552](./typora-user-images/image-20211121143809552.png)
 
 ```java
 @Test
@@ -5839,7 +5839,7 @@ public void api_04() throws ClassNotFoundException {
 
 ### 反射爆破创建对象
 
-![image-20211121150959793](\typora-user-images\image-20211121150959793.png)
+![image-20211121150959793](./typora-user-images/image-20211121150959793.png)
 
 ```java
 package com.kjqedu.question;
@@ -5895,25 +5895,25 @@ class User {
 
 ### 反射爆破操作属性
 
-![image-20211121151431408](\typora-user-images\image-20211121151431408.png)
+![image-20211121151431408](./typora-user-images/image-20211121151431408.png)
 
-![image-20211121152100048](\typora-user-images\image-20211121152100048.png)
+![image-20211121152100048](./typora-user-images/image-20211121152100048.png)
 
-![image-20211121152417136](\typora-user-images\image-20211121152417136.png)
+![image-20211121152417136](./typora-user-images/image-20211121152417136.png)
 
-![image-20211121152712788](\typora-user-images\image-20211121152712788.png)
+![image-20211121152712788](./typora-user-images/image-20211121152712788.png)
 
 ### 反射爆破操作方法
 
-![image-20211121152922821](\typora-user-images\image-20211121152922821.png)
+![image-20211121152922821](./typora-user-images/image-20211121152922821.png)
 
-![image-20211121153433927](\typora-user-images\image-20211121153433927.png)
+![image-20211121153433927](./typora-user-images/image-20211121153433927.png)
 
-![image-20211121153811848](\typora-user-images\image-20211121153811848.png)
+![image-20211121153811848](./typora-user-images/image-20211121153811848.png)
 
-![image-20211121153908062](\typora-user-images\image-20211121153908062.png)
+![image-20211121153908062](./typora-user-images/image-20211121153908062.png)
 
-![image-20211121154131187](\typora-user-images\image-20211121154131187.png)
+![image-20211121154131187](./typora-user-images/image-20211121154131187.png)
 
 ## Mysql基础
 
@@ -5925,37 +5925,37 @@ MySQL5.7现在地址
 
 https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.19-winx64.zip
 
-![image-20211121163358976](\typora-user-images\image-20211121163358976.png)
+![image-20211121163358976](./typora-user-images/image-20211121163358976.png)
 
-![image-20211121163918953](\typora-user-images\image-20211121163918953.png)
+![image-20211121163918953](./typora-user-images/image-20211121163918953.png)
 
-![image-20211121163958082](\typora-user-images\image-20211121163958082.png)
+![image-20211121163958082](./typora-user-images/image-20211121163958082.png)
 
-![image-20211121164444175](\typora-user-images\image-20211121164444175.png)
+![image-20211121164444175](./typora-user-images/image-20211121164444175.png)
 
-![image-20211121164504399](\typora-user-images\image-20211121164504399.png)
+![image-20211121164504399](./typora-user-images/image-20211121164504399.png)
 
-![image-20211121164734568](\typora-user-images\image-20211121164734568.png)
+![image-20211121164734568](./typora-user-images/image-20211121164734568.png)
 
 mysqld -install  
 
-![image-20211121165120573](\typora-user-images\image-20211121165120573.png)
+![image-20211121165120573](./typora-user-images/image-20211121165120573.png)
 
 mysqld --initialize-insecure --user=mysql
 
-![image-20211121165329874](\typora-user-images\image-20211121165329874.png)
+![image-20211121165329874](./typora-user-images/image-20211121165329874.png)
 
-![image-20211121165559651](\typora-user-images\image-20211121165559651.png)
+![image-20211121165559651](./typora-user-images/image-20211121165559651.png)
 
 退出指令quit
 
-![image-20211121165717095](\typora-user-images\image-20211121165717095.png)![image-20211121165800821](\typora-user-images\image-20211121165800821.png)
+![image-20211121165717095](./typora-user-images/image-20211121165717095.png)![image-20211121165800821](./typora-user-images/image-20211121165800821.png)
 
-![image-20211121165844326](\typora-user-images\image-20211121165844326.png)
+![image-20211121165844326](./typora-user-images/image-20211121165844326.png)
 
-![image-20211121165905630](\typora-user-images\image-20211121165905630.png)
+![image-20211121165905630](./typora-user-images/image-20211121165905630.png)
 
-![image-20211121174202429](\typora-user-images\image-20211121174202429.png)
+![image-20211121174202429](./typora-user-images/image-20211121174202429.png)
 
 mysql -h 127.0.0.1 -P 3306 -u root -pkjq
 
@@ -5967,21 +5967,21 @@ SQLyog下载地址：https://sqlyog.en.softonic.com/
 
 MySQL的三层结构
 
-![image-20211122070922178](\typora-user-images\image-20211122070922178.png)
+![image-20211122070922178](./typora-user-images/image-20211122070922178.png)
 
-![image-20211122071307379](\typora-user-images\image-20211122071307379.png)
+![image-20211122071307379](./typora-user-images/image-20211122071307379.png)
 
 ***数据库的相关操作***
 
-![image-20211122074512899](\typora-user-images\image-20211122074512899.png)
+![image-20211122074512899](./typora-user-images/image-20211122074512899.png)
 
 当在数据库下创建表示，而且没有指定字符集和校对规则，默认会以该数据库的符集和校对规则为准
 
-![image-20211122075002225](\typora-user-images\image-20211122075002225.png)
+![image-20211122075002225](./typora-user-images/image-20211122075002225.png)
 
 创建数据库时最好在数据库的名称上加上反引号（``）这样做可以规避关键字
 
-![image-20211122075722565](\typora-user-images\image-20211122075722565.png)
+![image-20211122075722565](./typora-user-images/image-20211122075722565.png)
 
 备份文件就是保存sql语句
 
@@ -5993,11 +5993,11 @@ mysqldump -u 用户名 -p密码 数据库 表1 表2 表n > G:\\文件名.sql
 
 创建
 
-![image-20211122082036353](\typora-user-images\image-20211122082036353.png)
+![image-20211122082036353](./typora-user-images/image-20211122082036353.png)
 
-![image-20211122083123899](\typora-user-images\image-20211122083123899.png)
+![image-20211122083123899](./typora-user-images/image-20211122083123899.png)
 
-![image-20211122084157214](\typora-user-images\image-20211122084157214.png)
+![image-20211122084157214](./typora-user-images/image-20211122084157214.png)
 
 timestamp自动更新时间【UNSIGNED】指定有符号还是无符号（表示没有正数）
 
@@ -6005,29 +6005,29 @@ INSERT INTO t3 VALUES(127); #非常简单的添加语句
 
 SELECT * FROM t3 #查询语句
 
-![image-20211122093133483](\typora-user-images\image-20211122093133483.png)
+![image-20211122093133483](./typora-user-images/image-20211122093133483.png)
 
-![image-20211122094312186](\typora-user-images\image-20211122094312186.png)
+![image-20211122094312186](./typora-user-images/image-20211122094312186.png)
 
 sqlyog注释快捷键shift+ctrl+c，取消注释shift+ctrl+r
 
-![image-20211122095034047](\typora-user-images\image-20211122095034047.png)
+![image-20211122095034047](./typora-user-images/image-20211122095034047.png)
 
 char(size)size表示存储的的字符，它不区分字母或汉字【所占空间取决于你的编码】{是定长，size=4，存入AA，它也占四个字符}
 
-varchar(size)是变长，![image-20211122100048826](\typora-user-images\image-20211122100048826.png)
+varchar(size)是变长，![image-20211122100048826](./typora-user-images/image-20211122100048826.png)
 
-![image-20211122100326357](\typora-user-images\image-20211122100326357.png)
+![image-20211122100326357](./typora-user-images/image-20211122100326357.png)
 
-![image-20211122100815413](\typora-user-images\image-20211122100815413.png)
+![image-20211122100815413](./typora-user-images/image-20211122100815413.png)
 
-![image-20211122121215494](\typora-user-images\image-20211122121215494.png)
+![image-20211122121215494](./typora-user-images/image-20211122121215494.png)
 
-![image-20211122150006666](\typora-user-images\image-20211122150006666.png)
+![image-20211122150006666](./typora-user-images/image-20211122150006666.png)
 
 修改
 
-![image-20211122153531431](\typora-user-images\image-20211122153531431.png)
+![image-20211122153531431](./typora-user-images/image-20211122153531431.png)
 
 ```sql
 -- 添加一个列
@@ -6068,7 +6068,7 @@ DROP TABLE t03;
 
 ### CRUD*
 
-![image-20211122160407727](\typora-user-images\image-20211122160407727.png)
+![image-20211122160407727](./typora-user-images/image-20211122160407727.png)
 
 ***insert***添加
 
@@ -6089,7 +6089,7 @@ INSERT INTO `goobs` (id, goobs_name,  price)
 SELECT * FROM goobs;
 ```
 
-![image-20211122163648996](\typora-user-images\image-20211122163648996.png)
+![image-20211122163648996](./typora-user-images/image-20211122163648996.png)
 
 1.'30'可以把30字符串转为int类型
 
@@ -6105,7 +6105,7 @@ INSERT INTO `goobs`
 
 ***update***修改
 
-![image-20211122171443667](\typora-user-images\image-20211122171443667.png)
+![image-20211122171443667](./typora-user-images/image-20211122171443667.png)
 
 ```sql
 -- 对goobs表的price字段所有数据进行修改
@@ -6127,7 +6127,7 @@ SELECT * FROM goobs;
 
 ***delete***删除
 
-![image-20211122172927265](\typora-user-images\image-20211122172927265.png)
+![image-20211122172927265](./typora-user-images/image-20211122172927265.png)
 
 ```sql
 -- 删除表中id=10的记录
@@ -6148,7 +6148,7 @@ SELECT * FROM goobs;
 
 单表
 
-![image-20211122173408678](\typora-user-images\image-20211122173408678.png)
+![image-20211122173408678](./typora-user-images/image-20211122173408678.png)
 
 ```sql
 -- 查询表中所有的学生
@@ -6161,7 +6161,7 @@ SELECT `name`, chinese FROM student;
 SELECT DISTINCT chinese FROM student;
 ```
 
-![image-20211122183759708](\typora-user-images\image-20211122183759708.png)
+![image-20211122183759708](./typora-user-images/image-20211122183759708.png)
 
 ```sql
 -- 统计每一个学生的总分
@@ -6174,7 +6174,7 @@ SELECT 'name', (chinese+id+10) FROM student;
 SELECT 'name', (chinese+id) AS total_score FROM student;
 ```
 
-![image-20211122184636115](\typora-user-images\image-20211122184636115.png)
+![image-20211122184636115](./typora-user-images/image-20211122184636115.png)
 
 ```sql
 -- 查询
@@ -6200,7 +6200,7 @@ SELECT * FROM student
 	WHERE chinese IN (78, 86, 31);
 ```
 
-![image-20211122190915821](\typora-user-images\image-20211122190915821.png)
+![image-20211122190915821](./typora-user-images/image-20211122190915821.png)
 
 ```sql
 -- 给查询的语文成绩进行升序
@@ -6214,13 +6214,13 @@ SELECT `name`, (chinese+id) AS total_score FROM student
 
 ### 函数*
 
-![image-20211123065632396](\typora-user-images\image-20211123065632396.png)
+![image-20211123065632396](./typora-user-images/image-20211123065632396.png)
 
-![image-20211123070857465](\typora-user-images\image-20211123070857465.png)
+![image-20211123070857465](./typora-user-images/image-20211123070857465.png)
 
 sun函数仅对数值起作用，否则会报错
 
-![image-20211123071633172](\typora-user-images\image-20211123071633172.png)
+![image-20211123071633172](./typora-user-images/image-20211123071633172.png)
 
 ```sql
 -- 统计班里有多少学生
@@ -6257,7 +6257,7 @@ SELECT AVG(sal), deptho
 	HAVING AVG(sal) < 2000;
 ```
 
- ![image-20211123084845413](\typora-user-images\image-20211123084845413.png)
+ ![image-20211123084845413](./typora-user-images/image-20211123084845413.png)
 
 ```sql
 -- 返回字符串的字符集
@@ -6298,15 +6298,15 @@ SELECT
 	FROM emp;
 ```
 
-![image-20211123094724039](\typora-user-images\image-20211123094724039.png)
+![image-20211123094724039](./typora-user-images/image-20211123094724039.png)
 
 当我们需要产生一个固定的随机数时seed添加一个值，产生的随机数不会该表
 
-![image-20211123100155394](\typora-user-images\image-20211123100155394.png)
+![image-20211123100155394](./typora-user-images/image-20211123100155394.png)
 
-![image-20211123145751009](\typora-user-images\image-20211123145751009.png)
+![image-20211123145751009](./typora-user-images/image-20211123145751009.png)
 
-![image-20211123144241288](\typora-user-images\image-20211123144241288.png)
+![image-20211123144241288](./typora-user-images/image-20211123144241288.png)
 
 YEAR()|MONTH()|DATE()|获取时间的年月日
 
@@ -6322,7 +6322,7 @@ SELECT FROM_UNIXTIME(UNIX_TIMESTAMP(), %Y-%m-%d)
 
 
 
-![image-20211123151745838](\typora-user-images\image-20211123151745838.png)
+![image-20211123151745838](./typora-user-images/image-20211123151745838.png)
 
 ```sql
 -- 密码进行加密
@@ -6335,7 +6335,7 @@ SELECT PASSWORD('kjq') FROM DUAL;
 
 
 
-![image-20211123153706927](\typora-user-images\image-20211123153706927.png)
+![image-20211123153706927](./typora-user-images/image-20211123153706927.png)
 
 ```sql
 SELECT IF(TRUE, '北京', '上海') FROM DUAL;
@@ -6352,13 +6352,13 @@ SELECT ename, (CASE
 
 细节部分
 
-![image-20211123170015264](\typora-user-images\image-20211123170015264.png)
+![image-20211123170015264](./typora-user-images/image-20211123170015264.png)
 
-![image-20211123170306785](\typora-user-images\image-20211123170306785.png)
+![image-20211123170306785](./typora-user-images/image-20211123170306785.png)
 
 
 
-![image-20211123171614229](\typora-user-images\image-20211123171614229.png)
+![image-20211123171614229](./typora-user-images/image-20211123171614229.png)
 
 ```sql
 -- 分页查询
@@ -6369,15 +6369,15 @@ SELECT * FROM emp
 	LIMIT 3*(4-1), 3;
 ```
 
- ![image-20211123173738527](\typora-user-images\image-20211123173738527.png)
+ ![image-20211123173738527](./typora-user-images/image-20211123173738527.png)
 
-![image-20211123173759879](\typora-user-images\image-20211123173759879.png)
+![image-20211123173759879](./typora-user-images/image-20211123173759879.png)
 
-![image-20211123174042033](\typora-user-images\image-20211123174042033.png)
+![image-20211123174042033](./typora-user-images/image-20211123174042033.png)
 
 顺序1，先分组2，过滤3，排序4，分页
 
-![image-20211123174423024](\typora-user-images\image-20211123174423024.png)
+![image-20211123174423024](./typora-user-images/image-20211123174423024.png)
 
 ```sql
 SELECT deptno, AVG(sal) AS avg_sal
@@ -6392,7 +6392,7 @@ SELECT deptno, AVG(sal) AS avg_sal
 
 ### 内连接
 
-![image-20211123180229934](\typora-user-images\image-20211123180229934.png)
+![image-20211123180229934](./typora-user-images/image-20211123180229934.png)
 
 3，这样对标查询默认处理反回的结果，称为笛卡尔集
 
@@ -6408,7 +6408,7 @@ SELECT ename, sal, dname, emp.deptno
 
 自连接
 
-![image-20211124072213895](\typora-user-images\image-20211124072213895.png)
+![image-20211124072213895](./typora-user-images/image-20211124072213895.png)
 
 ```sql
 -- 把自己看成两张表
@@ -6420,7 +6420,7 @@ SELECT worker.ename AS '职员表', boss.ename AS '上级表'
 
  子查询
 
-![image-20211124074512176](\typora-user-images\image-20211124074512176.png)
+![image-20211124074512176](./typora-user-images/image-20211124074512176.png)
 
 ```sql
 -- 先找到sminth的部门编号，当成子查询
@@ -6466,13 +6466,13 @@ SELECT emp.ename, emp.sal, max_sal
 	AND temp.max_sal = emp.sal
 ```
 
- ![image-20211124082531996](\typora-user-images\image-20211124082531996.png)
+ ![image-20211124082531996](./typora-user-images/image-20211124082531996.png)
 
-![image-20211124082632724](\typora-user-images\image-20211124082632724.png)
+![image-20211124082632724](./typora-user-images/image-20211124082632724.png)
 
 多列子查询
 
-![image-20211124082829219](\typora-user-images\image-20211124082829219.png)
+![image-20211124082829219](./typora-user-images/image-20211124082829219.png)
 
 ```sql
 SELECT deptno, job
@@ -6509,7 +6509,6 @@ SELECT ename, sal, temp.avg_sal, emp.deptno
 查询每个部门的信息（包含：部门名，编号，地址）和人员数量
 
 ```sql
-
 SELECT dept.deptno, dname, loc, temp.per_num
 	FROM dept, (
 		SELECT COUNT(*) AS per_num, deptno
@@ -6522,7 +6521,6 @@ SELECT dept.deptno, dname, loc, temp.per_num
 表复制操作
 
 ```sql
-
 -- 把emp表的数据复制到my_tab01中
 INSERT INTO my_tab01
 	(id, `name`, sal, job, deptno)
@@ -6561,13 +6559,13 @@ DROP TABLE my_tmp
 
 合并查询
 
-![image-20211124094819442](\typora-user-images\image-20211124094819442.png)
+![image-20211124094819442](./typora-user-images/image-20211124094819442.png)
 
-![image-20211124100023011](\typora-user-images\image-20211124100023011.png)
+![image-20211124100023011](./typora-user-images/image-20211124100023011.png)
 
 ### 外连接*
 
-![image-20211124100733471](\typora-user-images\image-20211124100733471.png)
+![image-20211124100733471](./typora-user-images/image-20211124100733471.png)
 
 ```sql
 -- 左外连接
@@ -6583,11 +6581,11 @@ SELECT `name`, stu.id, grade
 
 ### 约束 
 
-![image-20211124103540912](\typora-user-images\image-20211124103540912.png)
+![image-20211124103540912](./typora-user-images/image-20211124103540912.png)
 
-![image-20211124103632637](\typora-user-images\image-20211124103632637.png)
+![image-20211124103632637](./typora-user-images/image-20211124103632637.png)
 
-![image-20211124104015868](\typora-user-images\image-20211124104015868.png)
+![image-20211124104015868](./typora-user-images/image-20211124104015868.png)
 
 ```sql
 CREATE TABLE t17
@@ -6603,19 +6601,19 @@ CREATE TABLE t18
 DESC t20
 ```
 
- ![image-20211124105425966](\typora-user-images\image-20211124105425966.png)
+ ![image-20211124105425966](./typora-user-images/image-20211124105425966.png)
 
 unique字段约束的null 可以添加多个
 
 如果一个列(字段)，是unique not null 使用效果类似 primary key
 
-![image-20211124110325368](\typora-user-images\image-20211124110325368.png)
+![image-20211124110325368](./typora-user-images/image-20211124110325368.png)
 
 外键
 
-![image-20211124132139435](\typora-user-images\image-20211124132139435.png)
+![image-20211124132139435](./typora-user-images/image-20211124132139435.png)
 
-![image-20211124132241863](\typora-user-images\image-20211124132241863.png)
+![image-20211124132241863](./typora-user-images/image-20211124132241863.png)
 
 ```sql
 -- 外键演示
@@ -6648,13 +6646,13 @@ INSERT INTO my_stu
 SELECT * FROM my_stu;
 ```
 
-![image-20211124133833517](\typora-user-images\image-20211124133833517.png)
+![image-20211124133833517](./typora-user-images/image-20211124133833517.png)
 
 存储引擎必须是innodb
 
 
 
-![image-20211124134725385](\typora-user-images\image-20211124134725385.png)
+![image-20211124134725385](./typora-user-images/image-20211124134725385.png)
 
 ```sql
 CREATE TABLE t23 (
@@ -6699,9 +6697,9 @@ CREATE TABLE purchase(
 
 自增长
 
-![image-20211124150030659](\typora-user-images\image-20211124150030659.png)
+![image-20211124150030659](./typora-user-images/image-20211124150030659.png)
 
-![image-20211124151223883](\typora-user-images\image-20211124151223883.png)
+![image-20211124151223883](./typora-user-images/image-20211124151223883.png)
 
 ```sql
 -- 5. 如果你添加数据时，给自增长字段（列）指定的有值，则以指定的值为准，如果指定了自增长，一般来说，就按照自增长的规则来添加数据
@@ -6717,21 +6715,21 @@ SELECT * FROM t24;
 
 ### 索引*
 
-![image-20211124152754039](\typora-user-images\image-20211124152754039.png)
+![image-20211124152754039](./typora-user-images/image-20211124152754039.png)
 
 只有创建索引的字段，查询速度才会变快
 
 索引的机制
 
-![image-20211124153928091](\typora-user-images\image-20211124153928091.png)
+![image-20211124153928091](./typora-user-images/image-20211124153928091.png)
 
-![image-20211124154409046](\typora-user-images\image-20211124154409046.png)
+![image-20211124154409046](./typora-user-images/image-20211124154409046.png)
 
 索引的分类
 
-![image-20211124154957199](\typora-user-images\image-20211124154957199.png)
+![image-20211124154957199](./typora-user-images/image-20211124154957199.png)
 
-![image-20211124155212023](\typora-user-images\image-20211124155212023.png)
+![image-20211124155212023](./typora-user-images/image-20211124155212023.png)
 
 5. 查询索引（三种方式）
 
@@ -6772,15 +6770,15 @@ SHOW KEY FROM t25
 DESC t25
 ```
 
-![image-20211125065404984](\typora-user-images\image-20211125065404984.png)
+![image-20211125065404984](./typora-user-images/image-20211125065404984.png)
 
 ### 事务
 
-![image-20211125070110068](\typora-user-images\image-20211125070110068.png)
+![image-20211125070110068](./typora-user-images/image-20211125070110068.png)
 
-![image-20211125070053293](\typora-user-images\image-20211125070053293.png)
+![image-20211125070053293](./typora-user-images/image-20211125070053293.png)
 
-![image-20211125073617968](\typora-user-images\image-20211125073617968.png)
+![image-20211125073617968](./typora-user-images/image-20211125073617968.png)
 
 ```sql
 -- 事务的重要操作
@@ -6806,17 +6804,17 @@ ROLLBACK TO a;
 ROLLBACK 
 ```
 
-![image-20211125074855483](\typora-user-images\image-20211125074855483.png)
+![image-20211125074855483](./typora-user-images/image-20211125074855483.png)
 
-![image-20211126070630437](\typora-user-images\image-20211126070630437.png)
+![image-20211126070630437](./typora-user-images/image-20211126070630437.png)
 
 5。InnoDB存储引擎支持事务，MyISAM不支持
 
 隔离级别
 
-![image-20211126071644209](\typora-user-images\image-20211126071644209.png)
+![image-20211126071644209](./typora-user-images/image-20211126071644209.png)
 
-![image-20211126072108062](\typora-user-images\image-20211126072108062.png)
+![image-20211126072108062](./typora-user-images/image-20211126072108062.png)
 
 脏读：由于你在事务中添加数据，但尚未提交，我的查询语句可以看到你尚未提交的数据
 
@@ -6824,7 +6822,7 @@ ROLLBACK
 
 幻读：由于我在查询中，你出现添加数据，导致我，第二次查询的结果比第一次多了一个
 
-![image-20211126072342478](\typora-user-images\image-20211126072342478.png)
+![image-20211126072342478](./typora-user-images/image-20211126072342478.png)
 
 ```sql
 -- 演示mysql的事务隔离级别
@@ -6858,19 +6856,19 @@ CREATE TABLE t28 (
 
 查看当前的隔离级别，设置隔离级别
 
-![image-20211126082549762](\typora-user-images\image-20211126082549762.png)
+![image-20211126082549762](./typora-user-images/image-20211126082549762.png)
 
 修改默认的隔离级别
 
 修改不是mysql.ini而是my.ini
 
-![image-20211126082810679](\typora-user-images\image-20211126082810679.png)
+![image-20211126082810679](./typora-user-images/image-20211126082810679.png)
 
-![image-20211126083058364](\typora-user-images\image-20211126083058364.png)
+![image-20211126083058364](./typora-user-images/image-20211126083058364.png)
 
 mysql表类型和存储引擎
 
-![image-20211126083527292](\typora-user-images\image-20211126083527292.png)
+![image-20211126083527292](./typora-user-images/image-20211126083527292.png)
 
 ```sql
 -- 查看所有的存储引擎
@@ -6891,11 +6889,11 @@ SHOW ENGINES
 -- FEDERATED  NO Federated MySQL storage engine
 ```
 
- ![image-20211126085029368](\typora-user-images\image-20211126085029368.png)
+ ![image-20211126085029368](./typora-user-images/image-20211126085029368.png)
 
-![image-20211126085300195](\typora-user-images\image-20211126085300195.png)
+![image-20211126085300195](./typora-user-images/image-20211126085300195.png)
 
-![image-20211129063122915](\typora-user-images\image-20211129064631553.png)
+![image-20211129063122915](./typora-user-images/image-20211129064631553.png)
 
 ```SQL
 ALTER TABLE `T29` ENGIE = INNODB
@@ -6903,9 +6901,9 @@ ALTER TABLE `T29` ENGIE = INNODB
 
 ### 视图
 
-![image-20211129065711591](\typora-user-images\image-20211129065711591.png)
+![image-20211129065711591](./typora-user-images/image-20211129065711591.png)
 
-![image-20211129070936676](\typora-user-images\image-20211129070936676.png)
+![image-20211129070936676](./typora-user-images/image-20211129070936676.png)
 
 ```sql
 -- 创建视图
@@ -6925,11 +6923,11 @@ SHOW CREATE VIEW emp_view01;
 DROP VIEW emp_view01;
 ```
 
-![image-20211129071712486](\typora-user-images\image-20211129071712486.png)
+![image-20211129071712486](./typora-user-images/image-20211129071712486.png)
 
 练习
 
-![image-20211129072002467](\typora-user-images\image-20211129072002467.png)
+![image-20211129072002467](./typora-user-images/image-20211129072002467.png)
 
 ```sql
 CREATE VIEW emp_view02
@@ -6944,25 +6942,25 @@ SELECT * FROM emp_view02
 
 MySQL管理
 
- ![image-20211129075529026](\typora-user-images\image-20211129075529026.png)
+ ![image-20211129075529026](./typora-user-images/image-20211129075529026.png)
 
-![image-20211129075617689](\typora-user-images\image-20211129075617689.png)
+![image-20211129075617689](./typora-user-images/image-20211129075617689.png)
 
 不同的数据库用户，登录到DBMS后，根据相应的权限，可以操作的数据库和数据对象（表，视图，触发器）都不一样
 
-![image-20211129083136354](\typora-user-images\image-20211129083136354.png)
+![image-20211129083136354](./typora-user-images/image-20211129083136354.png)
 
-![image-20211129083406010](\typora-user-images\image-20211129083406010.png)
+![image-20211129083406010](./typora-user-images/image-20211129083406010.png)
 
-![image-20211129083836424](\typora-user-images\image-20211129083836424.png)
+![image-20211129083836424](./typora-user-images/image-20211129083836424.png)
 
-![image-20211129083949501](\typora-user-images\image-20211129083949501.png)
+![image-20211129083949501](./typora-user-images/image-20211129083949501.png)
 
 权限生效指令：是刷新指令
 
-![image-20211129100710191](\typora-user-images\image-20211129100710191.png)
+![image-20211129100710191](./typora-user-images/image-20211129100710191.png)
 
-![image-20211129100852010](\typora-user-images\image-20211129100852010.png)
+![image-20211129100852010](./typora-user-images/image-20211129100852010.png)
 
 
 
@@ -6980,17 +6978,17 @@ LAST_DAY(日期)
 
 ### JDBC快速入门
 
-![image-20211129132653119](\typora-user-images\image-20211129132653119.png)
+![image-20211129132653119](./typora-user-images/image-20211129132653119.png)
 
-![image-20211129133714818](\typora-user-images\image-20211129133714818.png)
+![image-20211129133714818](./typora-user-images/image-20211129133714818.png)
 
 写一组JDBC接口，让其他厂商去实现该接口
 
-![image-20211129140353337](\typora-user-images\image-20211129140353337.png)
+![image-20211129140353337](./typora-user-images/image-20211129140353337.png)
 
-![image-20211129140737230](\typora-user-images\image-20211129140737230.png)
+![image-20211129140737230](./typora-user-images/image-20211129140737230.png)
 
-![image-20211129153009980](\typora-user-images\image-20211129153009980.png)
+![image-20211129153009980](./typora-user-images/image-20211129153009980.png)
 
 第一种方式
 
@@ -7187,7 +7185,7 @@ public class ResultSet_ {
 
 SQL注入
 
-![image-20211129181849358](\typora-user-images\image-20211129181849358.png)
+![image-20211129181849358](./typora-user-images/image-20211129181849358.png)
 
 ```sql
 SELECT * FROM damin
@@ -7204,7 +7202,7 @@ SELECT * FROM damin
 
 preparedStatement
 
-![image-20211129183839907](\typora-user-images\image-20211129183839907.png)
+![image-20211129183839907](./typora-user-images/image-20211129183839907.png)
 
 可以很好地避免sql注入
 
@@ -7271,9 +7269,9 @@ public class PreparedStatement_ {
 
 ### JDBC API*
 
-![image-20211129195102511](\typora-user-images\image-20211129195102511.png)
+![image-20211129195102511](./typora-user-images/image-20211129195102511.png)
 
-![image-20211129195544070](\typora-user-images\image-20211129195544070.png)
+![image-20211129195544070](./typora-user-images/image-20211129195544070.png)
 
 ### JDBCUtils 
 
@@ -7385,7 +7383,7 @@ public class JDBCUtils_Use {
 
 ### 事务*
 
-![image-20211130194728655](\typora-user-images\image-20211130194728655.png)
+![image-20211130194728655](./typora-user-images/image-20211130194728655.png)
 
 转账案例
 
@@ -7471,7 +7469,7 @@ public class Transaction_ {
 
 ### 批处理
 
-![image-20211130202233337](\typora-user-images\image-20211130202233337.png)
+![image-20211130202233337](./typora-user-images/image-20211130202233337.png)
 
 ```java
 package com.kjqedu.jdbc.batch_;
@@ -7551,19 +7549,19 @@ public class Batch_ {
 }
 ```
 
-![image-20211130205351437](\typora-user-images\image-20211130205351437.png)
+![image-20211130205351437](./typora-user-images/image-20211130205351437.png)
 
 ### 连接池*
 
 当有多个连接数据库时，而且不关闭连接，就会报一个异常。导致数据库崩溃
 
-![image-20211201083859212](\typora-user-images\image-20211201083859212.png)
+![image-20211201083859212](./typora-user-images/image-20211201083859212.png)
 
-![image-20211201084631359](\typora-user-images\image-20211201084631359.png)
+![image-20211201084631359](./typora-user-images/image-20211201084631359.png)
 
-![image-20211201084609618](\typora-user-images\image-20211201084609618.png)
+![image-20211201084609618](./typora-user-images/image-20211201084609618.png)
 
-![image-20211201084837034](\typora-user-images\image-20211201084837034.png)
+![image-20211201084837034](./typora-user-images/image-20211201084837034.png)
 
 c3p0数据库连接池
 
@@ -7756,9 +7754,9 @@ public class JDBCUtilsByDruid_USE {
 
 ### Apache--DBUtils把查询到的数据封装到列表中
 
-![image-20211201191526528](\typora-user-images\image-20211201191526528.png)
+![image-20211201191526528](./typora-user-images/image-20211201191526528.png)
 
-![image-20211201192617060](\typora-user-images\image-20211201192617060.png)
+![image-20211201192617060](./typora-user-images/image-20211201192617060.png)
 
 练习：使用DBUtils+数据连接池（德鲁伊）方式，完成对表actor的crud
 
@@ -7922,15 +7920,15 @@ public static void testScalar() throws SQLException {
 
 ### DAO增量改查-BasicDao把各种表封装成对象*
 
-![image-20211203094050453](\typora-user-images\image-20211203094050453.png)
+![image-20211203094050453](./typora-user-images/image-20211203094050453.png)
 
-![image-20211203100637598](\typora-user-images\image-20211203100637598.png)
+![image-20211203100637598](./typora-user-images/image-20211203100637598.png)
 
-![image-20211203100822143](\typora-user-images\image-20211203100822143.png)
+![image-20211203100822143](./typora-user-images/image-20211203100822143.png)
 
-![image-20211203101003703](\typora-user-images\image-20211203101003703.png)
+![image-20211203101003703](./typora-user-images/image-20211203101003703.png)
 
-![image-20211203101311062](\typora-user-images\image-20211203101311062.png)
+![image-20211203101311062](./typora-user-images/image-20211203101311062.png)
 
 ## 正则表达式
 
@@ -7946,11 +7944,11 @@ while (matcher.find()){
 }
 ```
 
-![image-20211225120649672](\typora-user-images\image-20211225120649672.png)
+![image-20211225120649672](./typora-user-images/image-20211225120649672.png)
 
-![image-20211225121405304](\typora-user-images\image-20211225121405304.png)
+![image-20211225121405304](./typora-user-images/image-20211225121405304.png)
 
-![image-20211225121608431](\typora-user-images\image-20211225121608431.png)
+![image-20211225121608431](./typora-user-images/image-20211225121608431.png)
 
 转义字符\\\
 
@@ -7960,11 +7958,11 @@ while (matcher.find()){
 
 ?前要用()表示作用域，加上？也表示非贪婪匹配
 
-![image-20211225131833059](\typora-user-images\image-20211225131833059.png)
+![image-20211225131833059](./typora-user-images/image-20211225131833059.png)
 
-![image-20211225125524654](\typora-user-images\image-20211225125524654.png)
+![image-20211225125524654](./typora-user-images/image-20211225125524654.png)
 
-![image-20211225125617163](\typora-user-images\image-20211225125617163.png)
+![image-20211225125617163](./typora-user-images/image-20211225125617163.png)
 
 2.选择匹配符
 
@@ -7972,13 +7970,13 @@ while (matcher.find()){
 
 3.分组组合符
 
-![image-20211225130205005](\typora-user-images\image-20211225130205005.png)
+![image-20211225130205005](./typora-user-images/image-20211225130205005.png)
 
-![image-20211225130253322](\typora-user-images\image-20211225130253322.png)
+![image-20211225130253322](./typora-user-images/image-20211225130253322.png)
 
 非捕获分组，不能用group(0)找
 
-![image-20211225131100792](\typora-user-images\image-20211225131100792.png)
+![image-20211225131100792](./typora-user-images/image-20211225131100792.png)
 
 4.特殊字符
 
@@ -7986,7 +7984,7 @@ while (matcher.find()){
 
 ​	(1)[a-z]匹配小写的a-z
 
-![image-20211225123539695](\typora-user-images\image-20211225123539695.png)
+![image-20211225123539695](./typora-user-images/image-20211225123539695.png)
 
 [^a-z]匹配不是a-z的所有字符
 
@@ -7996,7 +7994,7 @@ while (matcher.find()){
 
 6.定位符
 
-![image-20211225125800292](\typora-user-images\image-20211225125800292.png)
+![image-20211225125800292](./typora-user-images/image-20211225125800292.png)
 
 \\\b表示匹配只有在结尾才能匹配成功
 
@@ -8020,19 +8018,19 @@ if (matcher.find()){
 
 ### 三个常用类
 
-![image-20211225135416521](\typora-user-images\image-20211225135416521.png)
+![image-20211225135416521](./typora-user-images/image-20211225135416521.png)
 
 ### 分组，捕获，反向引用
 
- ![image-20211225140323317](\typora-user-images\image-20211225140323317.png)
+ ![image-20211225140323317](./typora-user-images/image-20211225140323317.png)
 
-![image-20211225140606452](\typora-user-images\image-20211225140606452.png)
+![image-20211225140606452](./typora-user-images/image-20211225140606452.png)
 
 去结巴
 
-![image-20211225141108528](\typora-user-images\image-20211225141108528.png)
+![image-20211225141108528](./typora-user-images/image-20211225141108528.png)
 
-![image-20211225141304715](\typora-user-images\image-20211225141304715.png)
+![image-20211225141304715](./typora-user-images/image-20211225141304715.png)
 
 
 
