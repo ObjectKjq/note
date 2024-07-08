@@ -11,6 +11,7 @@
 ## 前端
 - [node](https://github.com/ObjectKjq/note/blob/master/%E5%89%8D%E7%AB%AF/node/Node.md)
 - [vue](https://github.com/ObjectKjq/note/blob/master/%E5%89%8D%E7%AB%AF/vue/vue.md)
+- [JavaScipt](https://github.com/ObjectKjq/note/blob/master/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E4%B8%89%E4%BB%B6%E5%A5%97/javascript/javaScript.md)
 - [ajax](https://github.com/ObjectKjq/note/blob/master/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E4%B8%89%E4%BB%B6%E5%A5%97/ajax.md)
 - [html5和css3](https://github.com/ObjectKjq/note/blob/master/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E4%B8%89%E4%BB%B6%E5%A5%97/html5css3.md)
 - [响应式编程](https://github.com/ObjectKjq/note/blob/master/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E4%B8%89%E4%BB%B6%E5%A5%97/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
